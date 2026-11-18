@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Skins & Milestones",
+    "description": "Campione iniziale di skin collegate a patch recenti; il catalogo completo non è incluso.",
+    "category": "skins",
+    "gameVersion": "5.4.2",
+    "lastVerified": "2026-11-18",
+    "coverage": "starter-dataset-not-complete"
+  },
+  "items": [
+    {
+      "id": "targetman-shedletsky",
+      "name": "Targetman",
+      "characterId": "shedletsky",
+      "category": "Shop / Revamped",
+      "unlock": "Prezzo da verificare in-game",
+      "status": "confirmed-update",
+      "sourceIds": [
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "technician-builderman",
+      "name": "Technician",
+      "characterId": "builderman",
+      "category": "Shop / Revamped",
+      "unlock": "Prezzo da verificare in-game",
+      "status": "confirmed-update",
+      "sourceIds": [
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "medic-elliot",
+      "name": "Medic",
+      "characterId": "elliot",
+      "category": "Shop / Revamped",
+      "unlock": "Prezzo da verificare in-game",
+      "status": "confirmed-update",
+      "sourceIds": [
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "juggernaut-guest1337",
+      "name": "Juggernaut",
+      "characterId": "guest-1337",
+      "category": "Badge reward / Revamped",
+      "unlock": "Badge: Glimpse Into Doom",
+      "status": "confirmed-update",
+      "sourceIds": [
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "monitoring-two-time",
+      "name": "Monitoring",
+      "characterId": "two-time",
+      "category": "Temporarily removed",
+      "unlock": "Non disponibile secondo la patch 5.4.2",
+      "status": "confirmed-update",
+      "sourceIds": [
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "helperbot-2-0",
+      "name": "2.0",
+      "characterId": "helperbot",
+      "category": "Shop / Cosmetic",
+      "unlock": null,
+      "status": "partial",
+      "sourceIds": [
+        "newbeginnings"
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "helperbot-angry-robot",
+      "name": "Angry Robot",
+      "characterId": "helperbot",
+      "category": "Cosmetic",
+      "unlock": null,
+      "status": "partial",
+      "sourceIds": [
+        "newbeginnings"
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "veero-arcade",
+      "name": "Arcade",
+      "characterId": "veeronica",
+      "category": "Cosmetic",
+      "unlock": null,
+      "status": "partial",
+      "sourceIds": [
+        "newbeginnings"
+      ],
+      "lastVerified": "2026-11-18"
+    }
+  ]
+}

@@ -1,0 +1,928 @@
+{
+  "meta": {
+    "title": "Characters",
+    "description": "Roster unificato dei personaggi giocabili. I valori senza fonte corrente restano non disponibili.",
+    "category": "characters",
+    "lastVerified": "2026-11-18",
+    "coverage": "starter-dataset"
+  },
+  "items": [
+    {
+      "id": "007n7",
+      "name": "007n7",
+      "side": "Survivor",
+      "role": "Survivalist",
+      "unlock": "500 PP",
+      "description": "Survivalist basato su depistaggio e mobilità. La pagina community documenta Clone, c00lgui e Inject; dettagli e cooldown possono cambiare tra patch.",
+      "description_en": "Survivalist basato su depistaggio e mobilità. La pagina community documenta Clone, c00lgui e Inject; dettagli e cooldown possono cambiare tra patch.",
+      "playstyle": "Depistaggio · teletrasporto · clone",
+      "stats": {
+        "health": 100,
+        "walkSpeed": 12,
+        "sprintSpeed": 26,
+        "stamina": 100,
+        "terrorRadius": null,
+        "difficulty": "4/5"
+      },
+      "abilities": [
+        "Clone",
+        "c00lgui",
+        "Inject"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": "https://rowikis.com/forsaken/img/characters/007n7.webp",
+      "imageCredit": "rowikis",
+      "status": "verified-community",
+      "tags": [
+        "survivor",
+        "survivalist",
+        "mobility",
+        "deception"
+      ],
+      "sourceIds": [
+        "007n7"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "builderman",
+      "name": "Builderman",
+      "side": "Survivor",
+      "role": "Support",
+      "unlock": "500 PP",
+      "description": "Support orientato alla preparazione e al controllo dell’area. Il kit include strutture di supporto; cooldown e valori puntuali non sono stati sincronizzati.",
+      "description_en": "Support orientato alla preparazione e al controllo dell’area. Il kit include strutture di supporto; cooldown e valori puntuali non sono stati sincronizzati.",
+      "playstyle": "Preparazione · controllo area",
+      "stats": {
+        "health": 90,
+        "walkSpeed": 12,
+        "sprintSpeed": 26,
+        "stamina": 100
+      },
+      "abilities": [
+        "Sentry",
+        "Dispenser",
+        "Trowel"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "verified-community",
+      "tags": [
+        "survivor",
+        "support",
+        "utility"
+      ],
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "chance",
+      "name": "Chance",
+      "side": "Survivor",
+      "role": "Sentinel",
+      "unlock": "777 PP",
+      "description": "Sentinel a distanza con risultati variabili: le fonti riportano salute variabile e difficoltà indicata come Gamble.",
+      "description_en": "Sentinel a distanza con risultati variabili: le fonti riportano salute variabile e difficoltà indicata come Gamble.",
+      "playstyle": "Attacco a distanza · casualità",
+      "stats": {
+        "health": "55–130",
+        "walkSpeed": 12,
+        "sprintSpeed": 26,
+        "stamina": 100,
+        "difficulty": "Variabile"
+      },
+      "abilities": [
+        "Unpredictable Fate",
+        "Coin Flip",
+        "One Shot",
+        "Reroll"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "verified-community",
+      "tags": [
+        "survivor",
+        "sentinel",
+        "ranged",
+        "random"
+      ],
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "dusekkar",
+      "name": "Dusekkar",
+      "side": "Survivor",
+      "role": "Support",
+      "unlock": "600 PP",
+      "description": "Support focalizzato su protezione e disturbo. La disponibilità di abilità e missioni può essere soggetta a modifiche.",
+      "description_en": "Support focalizzato su protezione e disturbo. La disponibilità di abilità e missioni può essere soggetta a modifiche.",
+      "playstyle": "Protezione · disruption",
+      "stats": {
+        "health": 90,
+        "walkSpeed": 12,
+        "sprintSpeed": 26,
+        "stamina": 100,
+        "difficulty": "5/5"
+      },
+      "abilities": [
+        "Poison Apple",
+        "(kit da verificare)"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "partial",
+      "tags": [
+        "survivor",
+        "support",
+        "protection"
+      ],
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "elliot",
+      "name": "Elliot",
+      "side": "Survivor",
+      "role": "Support",
+      "unlock": "Gratis",
+      "description": "Support e guaritore; è tra i personaggi gratuiti indicati dalle guide community.",
+      "description_en": "Support e guaritore; è tra i personaggi gratuiti indicati dalle guide community.",
+      "playstyle": "Supporto · cura",
+      "stats": {
+        "health": 80,
+        "walkSpeed": 12,
+        "sprintSpeed": 26,
+        "stamina": 100,
+        "difficulty": "2/5"
+      },
+      "abilities": [
+        "(abilità da sincronizzare)"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "verified-community",
+      "tags": [
+        "survivor",
+        "support",
+        "healing"
+      ],
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "guest-1337",
+      "name": "Guest 1337",
+      "side": "Survivor",
+      "role": "Sentinel",
+      "unlock": "500 PP",
+      "description": "Sentinel orientato alla protezione e alle interruzioni. La skin Juggernaut è stata aggiornata e collegata a un badge nella patch 5.4.2.",
+      "description_en": "Sentinel orientato alla protezione e alle interruzioni. La skin Juggernaut è stata aggiornata e collegata a un badge nella patch 5.4.2.",
+      "playstyle": "Frontline · difesa",
+      "stats": {
+        "health": 110,
+        "walkSpeed": 12,
+        "sprintSpeed": 26,
+        "stamina": 100,
+        "difficulty": "4/5"
+      },
+      "abilities": [
+        "Block",
+        "Charge",
+        "Punch"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "verified-community",
+      "tags": [
+        "survivor",
+        "sentinel",
+        "frontline"
+      ],
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "helperbot",
+      "name": "Helperbot",
+      "side": "Survivor",
+      "role": "Support",
+      "unlock": "650 PP",
+      "description": "Survivor Support introdotto con l’aggiornamento 5.3.0 New Beginnings. Le fonti descrivono abilità come Inspire e Radar; numeri da verificare sul client attuale.",
+      "description_en": "Survivor Support introdotto con l’aggiornamento 5.3.0 New Beginnings. Le fonti descrivono abilità come Inspire e Radar; numeri da verificare sul client attuale.",
+      "playstyle": "Supporto · assistenza squadra",
+      "stats": {
+        "health": 80,
+        "walkSpeed": 12,
+        "sprintSpeed": 26,
+        "stamina": 100,
+        "difficulty": "2/5"
+      },
+      "abilities": [
+        "Inspire",
+        "Radar",
+        "Sixer"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "partial",
+      "tags": [
+        "survivor",
+        "support",
+        "new-character"
+      ],
+      "sourceIds": [
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "jane-doe",
+      "name": "Jane Doe",
+      "side": "Survivor",
+      "role": "Sentinel",
+      "unlock": "Ricompensa missione",
+      "description": "Sentinel sbloccata tramite la relativa quest, non tramite acquisto diretto secondo le guide community.",
+      "description_en": "Sentinel sbloccata tramite la relativa quest, non tramite acquisto diretto secondo le guide community.",
+      "playstyle": "Gestione risorse · frontline",
+      "stats": {
+        "health": "60 (+30 SHP)",
+        "walkSpeed": 12,
+        "sprintSpeed": 26,
+        "stamina": 100,
+        "difficulty": "3/5"
+      },
+      "abilities": [
+        "Till Death Do Us Part",
+        "Digital Footprint",
+        "Shatterpoint",
+        "Crystal Pitch",
+        "Hatchet"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "verified-community",
+      "tags": [
+        "survivor",
+        "sentinel",
+        "quest"
+      ],
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "noob",
+      "name": "Noob",
+      "side": "Survivor",
+      "role": "Survivalist",
+      "unlock": "Gratis",
+      "description": "Survivor gratuito con approccio versatile e strumenti consumabili. La guida community elenca Bloxy Cola, Slateskin Potion e GhostBurger.",
+      "description_en": "Survivor gratuito con approccio versatile e strumenti consumabili. La guida community elenca Bloxy Cola, Slateskin Potion e GhostBurger.",
+      "playstyle": "Versatilità · preparazione",
+      "stats": {
+        "health": 100,
+        "walkSpeed": 12,
+        "sprintSpeed": 26,
+        "stamina": 100,
+        "difficulty": "3/5"
+      },
+      "abilities": [
+        "Bloxy Cola",
+        "Slateskin Potion",
+        "GhostBurger"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "verified-community",
+      "tags": [
+        "survivor",
+        "survivalist",
+        "starter"
+      ],
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "shedletsky",
+      "name": "Shedletsky",
+      "side": "Survivor",
+      "role": "Sentinel",
+      "unlock": "Gratis",
+      "description": "Sentinel gratuito orientato alla previsione e al combattimento ravvicinato in-game.",
+      "description_en": "Sentinel gratuito orientato alla previsione e al combattimento ravvicinato in-game.",
+      "playstyle": "Frontline · interruzione",
+      "stats": {
+        "health": 100,
+        "walkSpeed": 12,
+        "sprintSpeed": 26,
+        "stamina": 100,
+        "difficulty": "2/5"
+      },
+      "abilities": [
+        "Slash",
+        "Fried Chicken",
+        "Admin Commands"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "verified-community",
+      "tags": [
+        "survivor",
+        "sentinel",
+        "starter"
+      ],
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "taph",
+      "name": "Taph",
+      "side": "Survivor",
+      "role": "Support",
+      "unlock": "600 PP",
+      "description": "Support orientato a furtività e preparazione. Una fonte community riporta tripwire e strumenti di controllo; dettagli da verificare.",
+      "description_en": "Support orientato a furtività e preparazione. Una fonte community riporta tripwire e strumenti di controllo; dettagli da verificare.",
+      "playstyle": "Furtività · preparazione",
+      "stats": {
+        "health": 100,
+        "walkSpeed": 12,
+        "sprintSpeed": 26,
+        "stamina": 100,
+        "difficulty": "2/5"
+      },
+      "abilities": [
+        "(kit da sincronizzare)"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "partial",
+      "tags": [
+        "survivor",
+        "support",
+        "stealth"
+      ],
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "two-time",
+      "name": "Two Time",
+      "side": "Survivor",
+      "role": "Sentinel",
+      "unlock": "500 PP",
+      "description": "Sentinel con elementi di furtività e sopravvivenza. Una skin è stata temporaneamente rimossa nella patch 5.4.2.",
+      "description_en": "Sentinel con elementi di furtività e sopravvivenza. Una skin è stata temporaneamente rimossa nella patch 5.4.2.",
+      "playstyle": "Furtività · versatile",
+      "stats": {
+        "health": 80,
+        "walkSpeed": 12,
+        "sprintSpeed": 26,
+        "stamina": 100,
+        "difficulty": "4/5"
+      },
+      "abilities": [
+        "Oblation",
+        "Sacrificial Dagger",
+        "Crouch",
+        "Pray",
+        "Ritual"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "verified-community",
+      "tags": [
+        "survivor",
+        "sentinel",
+        "stealth"
+      ],
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "veeronica",
+      "name": "Veeronica",
+      "side": "Survivor",
+      "role": "Survivalist",
+      "unlock": "750 PP",
+      "description": "Survivalist con focus sulla mobilità e sugli strumenti di spostamento.",
+      "description_en": "Survivalist con focus sulla mobilità e sugli strumenti di spostamento.",
+      "playstyle": "Mobilità · preparazione",
+      "stats": {
+        "health": 100,
+        "walkSpeed": 12,
+        "sprintSpeed": 26,
+        "stamina": 100,
+        "difficulty": "3/5"
+      },
+      "abilities": [
+        "Metal Frame",
+        "Vandalism",
+        "Sk8",
+        "Broadcast",
+        "Activate Battery"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "verified-community",
+      "tags": [
+        "survivor",
+        "survivalist",
+        "mobility"
+      ],
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "1x1x1x1",
+      "name": "1x1x1x1",
+      "side": "Killer",
+      "role": "Zoner",
+      "unlock": "1.250 PP",
+      "description": "Killer zoner con attacchi a distanza e controllo dell’area. La salute riportata (102.550) è un outlier rispetto agli altri killer ed è marcata come dato anomalo dalla fonte community.",
+      "description_en": "Killer zoner con attacchi a distanza e controllo dell’area. La salute riportata (102.550) è un outlier rispetto agli altri killer ed è marcata come dato anomalo dalla fonte community.",
+      "playstyle": "Zoning · pressione a distanza",
+      "stats": {
+        "health": "102.550*",
+        "walkSpeed": 8,
+        "sprintSpeed": 27,
+        "stamina": 110,
+        "terrorRadius": 75,
+        "difficulty": "4/5"
+      },
+      "abilities": [
+        "Slash",
+        "Mass Infection",
+        "Entanglement",
+        "Unstable Eye",
+        "Rejuvenate the Rotten"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": "https://rowikis.com/forsaken/img/characters/1x1x1x1.webp",
+      "imageCredit": "rowikis",
+      "status": "flagged",
+      "tags": [
+        "killer",
+        "zoner",
+        "ranged",
+        "anomaly"
+      ],
+      "sourceIds": [
+        "1x1x1x1"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": null,
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; anomaly flagged)"
+    },
+    {
+      "id": "azure",
+      "name": "Azure",
+      "side": "Killer",
+      "role": "Zoner",
+      "unlock": "2.000 PP",
+      "description": "Killer zoner introdotto in Azure’s Wrath. Le fonti riportano varianti di velocità durante lo stato Golem; i valori contestuali sono da sincronizzare.",
+      "description_en": "Killer zoner introdotto in Azure’s Wrath. Le fonti riportano varianti di velocità durante lo stato Golem; i valori contestuali sono da sincronizzare.",
+      "playstyle": "Zoning · pressione area",
+      "stats": {
+        "health": 1500,
+        "walkSpeed": "9.25 (9 Golem)",
+        "sprintSpeed": "27.25 (30 Golem)",
+        "stamina": "110 (50 Golem)",
+        "terrorRadius": 75,
+        "difficulty": "5/5"
+      },
+      "abilities": [
+        "Echolocation",
+        "Atropic",
+        "Senescence",
+        "Perforating",
+        "Seeker Bulb",
+        "Stigmatize",
+        "Enstrangle",
+        "Inflorescence"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "partial",
+      "tags": [
+        "killer",
+        "zoner",
+        "area-control"
+      ],
+      "sourceIds": [
+        "rblxguide",
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": null,
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+    },
+    {
+      "id": "c00lkidd",
+      "name": "c00lkidd",
+      "side": "Killer",
+      "role": "Rushdown",
+      "unlock": "Gratis",
+      "description": "Killer rushdown disponibile gratuitamente secondo le guide community. Il suo kit comprende attacchi e strumenti di inseguimento.",
+      "description_en": "Killer rushdown disponibile gratuitamente secondo le guide community. Il suo kit comprende attacchi e strumenti di inseguimento.",
+      "playstyle": "Rushdown · inseguimento",
+      "stats": {
+        "health": 1000,
+        "walkSpeed": 7.75,
+        "sprintSpeed": 28,
+        "stamina": 110,
+        "terrorRadius": 75,
+        "difficulty": "3/5"
+      },
+      "abilities": [
+        "Punch",
+        "Corrupt Nature",
+        "Walkspeed Override",
+        "Pizza Delivery"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "verified-community",
+      "tags": [
+        "killer",
+        "rushdown",
+        "starter"
+      ],
+      "sourceIds": [
+        "rblxguide",
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": null,
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+    },
+    {
+      "id": "guest-666",
+      "name": "Guest 666",
+      "side": "Killer",
+      "role": "Snowball / Attrition",
+      "unlock": "1.666 PP",
+      "description": "Killer orientato all’attrition. Il changelog New Beginnings ha modificato velocità e parametri di alcune abilità: verificare i valori con la patch attuale.",
+      "description_en": "Killer orientato all’attrition. Il changelog New Beginnings ha modificato velocità e parametri di alcune abilità: verificare i valori con la patch attuale.",
+      "playstyle": "Attrition · snowball",
+      "stats": {
+        "health": 2750,
+        "walkSpeed": 9,
+        "sprintSpeed": 27.5,
+        "stamina": 110,
+        "terrorRadius": 112.5,
+        "difficulty": "3/5"
+      },
+      "abilities": [
+        "Manic Fixation",
+        "Hellforged Will",
+        "Bloodhound",
+        "Sense of Fear",
+        "Carving Slash",
+        "Eviscerate",
+        "Demonic Pursuit",
+        "Infernal Cry"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "partial",
+      "tags": [
+        "killer",
+        "attrition",
+        "tracking"
+      ],
+      "sourceIds": [
+        "rblxguide",
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": null,
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+    },
+    {
+      "id": "john-doe",
+      "name": "John Doe",
+      "side": "Killer",
+      "role": "Zoner / Trapper",
+      "unlock": "Da verificare in-game (fonti discordanti)",
+      "description": "Killer zoner e trappola. Le fonti consultate mostrano differenze importanti nei valori di prezzo tra alcuni siti; il prezzo rimane da verificare nel negozio in-game.",
+      "description_en": "Killer zoner e trappola. Le fonti consultate mostrano differenze importanti nei valori di prezzo tra alcuni siti; il prezzo rimane da verificare nel negozio in-game.",
+      "playstyle": "Trappole · controllo area",
+      "stats": {
+        "health": 2300,
+        "walkSpeed": 9,
+        "sprintSpeed": 27.25,
+        "stamina": 110,
+        "terrorRadius": 60,
+        "difficulty": "5/5"
+      },
+      "abilities": [
+        "Till Death Do Us Part",
+        "Natural Malevolence",
+        "Unstoppable",
+        "Slash",
+        "Corrupt Energy",
+        "Digital Footprint",
+        "404 Error",
+        "Teapot Attack"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "partial",
+      "tags": [
+        "killer",
+        "zoner",
+        "trapper"
+      ],
+      "sourceIds": [
+        "killers_stats",
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": null,
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+    },
+    {
+      "id": "noli",
+      "name": "Noli",
+      "side": "Killer",
+      "role": "Rushdown / Deception",
+      "unlock": "1.100 PP",
+      "description": "Killer con elementi di inseguimento e inganno.",
+      "description_en": "Killer con elementi di inseguimento e inganno.",
+      "playstyle": "Rushdown · deception",
+      "stats": {
+        "health": 2222,
+        "walkSpeed": 8,
+        "sprintSpeed": 27.5,
+        "stamina": 110,
+        "terrorRadius": 100,
+        "difficulty": "5/5"
+      },
+      "abilities": [
+        "Hallucinations",
+        "Prankster",
+        "Stab",
+        "Void Rush",
+        "Nova",
+        "Observant",
+        "Fifth Sequence",
+        "Shard Stab"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "verified-community",
+      "tags": [
+        "killer",
+        "rushdown",
+        "deception"
+      ],
+      "sourceIds": [
+        "killers_stats",
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": null,
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+    },
+    {
+      "id": "nosferatu",
+      "name": "Nosferatu",
+      "side": "Killer",
+      "role": "Ambush / Stealth",
+      "unlock": "1.922 PP",
+      "description": "Killer con elementi di imboscata e furtività. Le fonti di community riportano kit e parametri che possono cambiare con i bilanciamenti.",
+      "description_en": "Killer con elementi di imboscata e furtività. Le fonti di community riportano kit e parametri che possono cambiare con i bilanciamenti.",
+      "playstyle": "Imboscata · furtività",
+      "stats": {
+        "health": 1750,
+        "walkSpeed": 7.5,
+        "sprintSpeed": 27.5,
+        "stamina": 110,
+        "terrorRadius": 75,
+        "difficulty": "4/5"
+      },
+      "abilities": [
+        "Levitation",
+        "Lacerate",
+        "Bloodhook",
+        "Cataclysm",
+        "Hunter’s Feast",
+        "Ascension",
+        "Dismount"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "verified-community",
+      "tags": [
+        "killer",
+        "ambush",
+        "stealth"
+      ],
+      "sourceIds": [
+        "killers_stats",
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": null,
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+    },
+    {
+      "id": "slasher",
+      "name": "Slasher",
+      "side": "Killer",
+      "role": "Rushdown / Stealth",
+      "unlock": "Gratis",
+      "description": "Killer gratuito che ha sostituito Jason con il rework 3.1.0. Le vecchie guide che usano il nome Jason possono riferirsi a dati storici.",
+      "description_en": "Killer gratuito che ha sostituito Jason con il rework 3.1.0. Le vecchie guide che usano il nome Jason possono riferirsi a dati storici.",
+      "playstyle": "Rushdown · furtività",
+      "stats": {
+        "health": 2000,
+        "walkSpeed": 9,
+        "sprintSpeed": 28,
+        "stamina": 110,
+        "terrorRadius": 62.5,
+        "difficulty": "2/5"
+      },
+      "abilities": [
+        "Slash",
+        "Behead",
+        "Gashing Wound",
+        "Raging Pace"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "verified-community",
+      "tags": [
+        "killer",
+        "rushdown",
+        "starter"
+      ],
+      "sourceIds": [
+        "rblxguide",
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": null,
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+    }
+  ]
+}

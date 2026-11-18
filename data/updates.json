@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Updates & Patch Notes",
+    "description": "Cronologia iniziale delle patch più rilevanti documentate.",
+    "category": "updates",
+    "gameVersion": "5.4.2",
+    "lastVerified": "2026-11-18",
+    "coverage": "starter-dataset"
+  },
+  "items": [
+    {
+      "id": "5-4-2",
+      "version": "5.4.2",
+      "title": "Forsakenween Hotfix Pt. 2",
+      "date": "2026-11",
+      "summary": "Skin Targetman, Technician e Medic aggiornate e rimesse in vendita; Monitoring Two Time temporaneamente rimosso; Juggernaut Guest 1337 disponibile tramite badge; modifiche al bilanciamento 2v12.",
+      "sourceIds": [
+        "patchlog"
+      ],
+      "status": "confirmed-community-index"
+    },
+    {
+      "id": "5-4-1",
+      "version": "5.4.1",
+      "title": "Forsakenween Hotfix",
+      "date": "2026-11",
+      "summary": "Correzioni a obiettivi mappa, accesso alla battlepass, mobilità e rotazione Yorick’s Resting Place.",
+      "sourceIds": [
+        "patchlog"
+      ],
+      "status": "confirmed-community-index"
+    },
+    {
+      "id": "5-4-0",
+      "version": "5.4.0",
+      "title": "Forsakenween",
+      "date": "2026-10 / 2026-11",
+      "summary": "Evento Forsakenween, modalità 2v12, nuove cosmetiche, rework di Yorick’s Resting Place, nuova Robloxian Highschool e nuove emote.",
+      "sourceIds": [
+        "patchlog"
+      ],
+      "status": "confirmed-community-index"
+    },
+    {
+      "id": "5-3-4",
+      "version": "5.3.4",
+      "title": "Emergency Fix",
+      "date": "2026-10",
+      "summary": "Riduzione temporanea della lobby e rimozione di molti NPC per affrontare problemi di prestazioni.",
+      "sourceIds": [
+        "patchlog"
+      ],
+      "status": "confirmed-community-index"
+    },
+    {
+      "id": "5-3-0",
+      "version": "5.3.0",
+      "title": "New Beginnings",
+      "date": "2026-10-16",
+      "summary": "Helperbot, nuova lobby, NPC, sistema di obiettivi mappa e miglioramenti al Last Man Standing.",
+      "sourceIds": [
+        "patchlog",
+        "newbeginnings"
+      ],
+      "status": "confirmed-community-index"
+    },
+    {
+      "id": "5-0-0",
+      "version": "5.0.0",
+      "title": "Azure’s Wrath",
+      "date": "2026-07-17",
+      "summary": "Azure entra nel roster; c00lkidd diventa disponibile gratuitamente; rework della lobby e sistema sticker secondo la cronologia community.",
+      "sourceIds": [
+        "fw"
+      ],
+      "status": "confirmed-community-index"
+    },
+    {
+      "id": "3-1-0",
+      "version": "3.1.0",
+      "title": "Slasher Update",
+      "date": "2025-08-30",
+      "summary": "Jason viene sostituito da Slasher con un redesign. Le guide precedenti possono riportare il nome storico Jason.",
+      "sourceIds": [
+        "fw"
+      ],
+      "status": "confirmed-community-index"
+    }
+  ]
+}

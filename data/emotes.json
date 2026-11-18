@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "title": "Emotes",
+    "description": "Emote citate nelle note degli aggiornamenti recenti; non è un catalogo completo.",
+    "category": "emotes",
+    "gameVersion": "5.4.2",
+    "lastVerified": "2026-11-18",
+    "coverage": "starter-dataset-not-complete"
+  },
+  "items": [
+    {
+      "id": "bad",
+      "name": "Bad",
+      "unlock": "Emote Pack #3",
+      "price": null,
+      "limited": false,
+      "status": "confirmed-update",
+      "sourceIds": [
+        "patchlog",
+        "newbeginnings"
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "raaaah",
+      "name": "RAAAAAAAHHHHHHHHH",
+      "unlock": "Emote Pack #3",
+      "price": null,
+      "limited": false,
+      "status": "confirmed-update",
+      "sourceIds": [
+        "patchlog",
+        "newbeginnings"
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "yaai",
+      "name": "YAAI",
+      "unlock": "Emote Pack #3",
+      "price": null,
+      "limited": false,
+      "status": "confirmed-update",
+      "sourceIds": [
+        "patchlog",
+        "newbeginnings"
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "floating-meditation",
+      "name": "Floating Meditation",
+      "unlock": "Emote Pack #3",
+      "price": null,
+      "limited": false,
+      "status": "confirmed-update",
+      "sourceIds": [
+        "patchlog",
+        "newbeginnings"
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "low-cortisol",
+      "name": "Low Cortisol",
+      "unlock": "Emote Pack #3",
+      "price": null,
+      "limited": false,
+      "status": "confirmed-update",
+      "sourceIds": [
+        "patchlog",
+        "newbeginnings"
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "thriller",
+      "name": "Thriller",
+      "unlock": "Forsakenween 5.4.0",
+      "price": null,
+      "limited": false,
+      "status": "confirmed-update",
+      "sourceIds": [
+        "patchlog",
+        "newbeginnings"
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "broom-ride",
+      "name": "Broom Ride",
+      "unlock": "Forsakenween 5.4.0",
+      "price": null,
+      "limited": false,
+      "status": "confirmed-update",
+      "sourceIds": [
+        "patchlog",
+        "newbeginnings"
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "pumpkin-groove",
+      "name": "Pumpkin Groove",
+      "unlock": "Forsakenween 5.4.0",
+      "price": null,
+      "limited": false,
+      "status": "confirmed-update",
+      "sourceIds": [
+        "patchlog",
+        "newbeginnings"
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "spooky",
+      "name": "Spooky",
+      "unlock": "New Beginnings 2026",
+      "price": null,
+      "limited": true,
+      "status": "confirmed-update",
+      "sourceIds": [
+        "patchlog",
+        "newbeginnings"
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "plumberjig",
+      "name": "PlumberJig",
+      "unlock": "New Beginnings 2026",
+      "price": null,
+      "limited": false,
+      "status": "confirmed-update",
+      "sourceIds": [
+        "patchlog",
+        "newbeginnings"
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "dancing",
+      "name": "Dancing!",
+      "unlock": "New Beginnings 2026",
+      "price": null,
+      "limited": false,
+      "status": "confirmed-update",
+      "sourceIds": [
+        "patchlog",
+        "newbeginnings"
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "da-thang",
+      "name": "Da Thang",
+      "unlock": "New Beginnings 2026",
+      "price": null,
+      "limited": false,
+      "status": "confirmed-update",
+      "sourceIds": [
+        "patchlog",
+        "newbeginnings"
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "parrot-party",
+      "name": "Parrot Party",
+      "unlock": "New Beginnings 2026",
+      "price": null,
+      "limited": false,
+      "status": "confirmed-update",
+      "sourceIds": [
+        "patchlog",
+        "newbeginnings"
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "he-seems-chill",
+      "name": "He Seems Chill",
+      "unlock": "New Beginnings 2026",
+      "price": null,
+      "limited": false,
+      "status": "confirmed-update",
+      "sourceIds": [
+        "patchlog",
+        "newbeginnings"
+      ],
+      "lastVerified": "2026-11-18"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "project": "The Forsaken Archive",
+    "brand": "FogLabs",
+    "schemaVersion": "1.0.0",
+    "gameVersion": "5.4.2",
+    "lastVerified": "2026-11-18",
+    "note": "Archivio iniziale: non completo. Dati con stato e fonti.",
+    "datasets": [
+      "characters",
+      "survivors",
+      "killers",
+      "skins",
+      "abilities",
+      "maps",
+      "items",
+      "effects",
+      "emotes",
+      "lore",
+      "badges",
+      "events",
+      "updates",
+      "guides",
+      "tierlists",
+      "sources"
+    ],
+    "coverage": "starter-dataset-not-complete"
+  }
+}

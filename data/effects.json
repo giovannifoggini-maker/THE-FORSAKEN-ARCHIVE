@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "title": "Status Effects",
+    "description": "Selezione iniziale di effetti citati nelle fonti consultate; non è il catalogo completo.",
+    "category": "effects",
+    "gameVersion": "5.4.2",
+    "lastVerified": "2026-11-18",
+    "coverage": "starter-dataset-not-complete"
+  },
+  "items": [
+    {
+      "id": "slowness",
+      "name": "Slowness",
+      "type": "Debuff",
+      "description": "Effetto presente nelle descrizioni di abilità o pericoli delle mappe consultate. Durata, livelli e interazioni complete sono da verificare.",
+      "duration": null,
+      "maxLevel": null,
+      "appliedBy": [],
+      "sourceIds": [
+        "maps",
+        "007n7",
+        "1x1x1x1"
+      ],
+      "status": "partial",
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "glitched",
+      "name": "Glitched",
+      "type": "Debuff",
+      "description": "Effetto presente nelle descrizioni di abilità o pericoli delle mappe consultate. Durata, livelli e interazioni complete sono da verificare.",
+      "duration": null,
+      "maxLevel": null,
+      "appliedBy": [],
+      "sourceIds": [
+        "maps",
+        "007n7",
+        "1x1x1x1"
+      ],
+      "status": "partial",
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "poisoned",
+      "name": "Poisoned",
+      "type": "Debuff",
+      "description": "Effetto presente nelle descrizioni di abilità o pericoli delle mappe consultate. Durata, livelli e interazioni complete sono da verificare.",
+      "duration": null,
+      "maxLevel": null,
+      "appliedBy": [],
+      "sourceIds": [
+        "maps",
+        "007n7",
+        "1x1x1x1"
+      ],
+      "status": "partial",
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "helpless",
+      "name": "Helpless",
+      "type": "Debuff",
+      "description": "Effetto presente nelle descrizioni di abilità o pericoli delle mappe consultate. Durata, livelli e interazioni complete sono da verificare.",
+      "duration": null,
+      "maxLevel": null,
+      "appliedBy": [],
+      "sourceIds": [
+        "maps",
+        "007n7",
+        "1x1x1x1"
+      ],
+      "status": "partial",
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "blindness",
+      "name": "Blindness",
+      "type": "Debuff",
+      "description": "Effetto presente nelle descrizioni di abilità o pericoli delle mappe consultate. Durata, livelli e interazioni complete sono da verificare.",
+      "duration": null,
+      "maxLevel": null,
+      "appliedBy": [],
+      "sourceIds": [
+        "maps",
+        "007n7",
+        "1x1x1x1"
+      ],
+      "status": "partial",
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "undetectable",
+      "name": "Undetectable",
+      "type": "Buff / Utility",
+      "description": "Effetto presente nelle descrizioni di abilità o pericoli delle mappe consultate. Durata, livelli e interazioni complete sono da verificare.",
+      "duration": null,
+      "maxLevel": null,
+      "appliedBy": [],
+      "sourceIds": [
+        "maps",
+        "007n7",
+        "1x1x1x1"
+      ],
+      "status": "partial",
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "invisibility",
+      "name": "Invisibility",
+      "type": "Buff / Utility",
+      "description": "Effetto presente nelle descrizioni di abilità o pericoli delle mappe consultate. Durata, livelli e interazioni complete sono da verificare.",
+      "duration": null,
+      "maxLevel": null,
+      "appliedBy": [],
+      "sourceIds": [
+        "maps",
+        "007n7",
+        "1x1x1x1"
+      ],
+      "status": "partial",
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "haste",
+      "name": "Haste",
+      "type": "Buff / Utility",
+      "description": "Effetto presente nelle descrizioni di abilità o pericoli delle mappe consultate. Durata, livelli e interazioni complete sono da verificare.",
+      "duration": null,
+      "maxLevel": null,
+      "appliedBy": [],
+      "sourceIds": [
+        "maps",
+        "007n7",
+        "1x1x1x1"
+      ],
+      "status": "partial",
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "corrupted",
+      "name": "Corrupted",
+      "type": "Debuff",
+      "description": "Effetto presente nelle descrizioni di abilità o pericoli delle mappe consultate. Durata, livelli e interazioni complete sono da verificare.",
+      "duration": null,
+      "maxLevel": null,
+      "appliedBy": [],
+      "sourceIds": [
+        "maps",
+        "007n7",
+        "1x1x1x1"
+      ],
+      "status": "partial",
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "burning",
+      "name": "Burning",
+      "type": "Debuff",
+      "description": "Effetto presente nelle descrizioni di abilità o pericoli delle mappe consultate. Durata, livelli e interazioni complete sono da verificare.",
+      "duration": null,
+      "maxLevel": null,
+      "appliedBy": [],
+      "sourceIds": [
+        "maps",
+        "007n7",
+        "1x1x1x1"
+      ],
+      "status": "partial",
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "vulnerable",
+      "name": "Vulnerable",
+      "type": "Debuff",
+      "description": "Effetto presente nelle descrizioni di abilità o pericoli delle mappe consultate. Durata, livelli e interazioni complete sono da verificare.",
+      "duration": null,
+      "maxLevel": null,
+      "appliedBy": [],
+      "sourceIds": [
+        "maps",
+        "007n7",
+        "1x1x1x1"
+      ],
+      "status": "partial",
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "id": "bleeding",
+      "name": "Bleeding",
+      "type": "Debuff",
+      "description": "Effetto presente nelle descrizioni di abilità o pericoli delle mappe consultate. Durata, livelli e interazioni complete sono da verificare.",
+      "duration": null,
+      "maxLevel": null,
+      "appliedBy": [],
+      "sourceIds": [
+        "maps",
+        "007n7",
+        "1x1x1x1"
+      ],
+      "status": "partial",
+      "lastVerified": "2026-11-18"
+    }
+  ]
+}

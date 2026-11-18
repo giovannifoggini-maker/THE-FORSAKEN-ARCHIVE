@@ -1,0 +1,1542 @@
+{
+  "meta": {
+    "title": "Abilities",
+    "description": "Nomi di abilità collegati ai personaggi. Cooldown e descrizioni restano non verificati dove assenti.",
+    "category": "abilities",
+    "gameVersion": "5.4.2",
+    "lastVerified": "2026-11-18",
+    "coverage": "starter-dataset-not-complete"
+  },
+  "items": [
+    {
+      "id": "007n7-1",
+      "name": "Clone",
+      "characterId": "007n7",
+      "characterName": "007n7",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "007n7"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "007n7-2",
+      "name": "c00lgui",
+      "characterId": "007n7",
+      "characterName": "007n7",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "007n7"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "007n7-3",
+      "name": "Inject",
+      "characterId": "007n7",
+      "characterName": "007n7",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "007n7"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "builderman-1",
+      "name": "Sentry",
+      "characterId": "builderman",
+      "characterName": "Builderman",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "builderman-2",
+      "name": "Dispenser",
+      "characterId": "builderman",
+      "characterName": "Builderman",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "builderman-3",
+      "name": "Trowel",
+      "characterId": "builderman",
+      "characterName": "Builderman",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "chance-1",
+      "name": "Unpredictable Fate",
+      "characterId": "chance",
+      "characterName": "Chance",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "chance-2",
+      "name": "Coin Flip",
+      "characterId": "chance",
+      "characterName": "Chance",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "chance-3",
+      "name": "One Shot",
+      "characterId": "chance",
+      "characterName": "Chance",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "chance-4",
+      "name": "Reroll",
+      "characterId": "chance",
+      "characterName": "Chance",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "dusekkar-1",
+      "name": "Poison Apple",
+      "characterId": "dusekkar",
+      "characterName": "Dusekkar",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "guest-1337-1",
+      "name": "Block",
+      "characterId": "guest-1337",
+      "characterName": "Guest 1337",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "guest-1337-2",
+      "name": "Charge",
+      "characterId": "guest-1337",
+      "characterName": "Guest 1337",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "guest-1337-3",
+      "name": "Punch",
+      "characterId": "guest-1337",
+      "characterName": "Guest 1337",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "helperbot-1",
+      "name": "Inspire",
+      "characterId": "helperbot",
+      "characterName": "Helperbot",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "helperbot-2",
+      "name": "Radar",
+      "characterId": "helperbot",
+      "characterName": "Helperbot",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "helperbot-3",
+      "name": "Sixer",
+      "characterId": "helperbot",
+      "characterName": "Helperbot",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "jane-doe-1",
+      "name": "Till Death Do Us Part",
+      "characterId": "jane-doe",
+      "characterName": "Jane Doe",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "jane-doe-2",
+      "name": "Digital Footprint",
+      "characterId": "jane-doe",
+      "characterName": "Jane Doe",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "jane-doe-3",
+      "name": "Shatterpoint",
+      "characterId": "jane-doe",
+      "characterName": "Jane Doe",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "jane-doe-4",
+      "name": "Crystal Pitch",
+      "characterId": "jane-doe",
+      "characterName": "Jane Doe",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "jane-doe-5",
+      "name": "Hatchet",
+      "characterId": "jane-doe",
+      "characterName": "Jane Doe",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "noob-1",
+      "name": "Bloxy Cola",
+      "characterId": "noob",
+      "characterName": "Noob",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "noob-2",
+      "name": "Slateskin Potion",
+      "characterId": "noob",
+      "characterName": "Noob",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "noob-3",
+      "name": "GhostBurger",
+      "characterId": "noob",
+      "characterName": "Noob",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "shedletsky-1",
+      "name": "Slash",
+      "characterId": "shedletsky",
+      "characterName": "Shedletsky",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "shedletsky-2",
+      "name": "Fried Chicken",
+      "characterId": "shedletsky",
+      "characterName": "Shedletsky",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "shedletsky-3",
+      "name": "Admin Commands",
+      "characterId": "shedletsky",
+      "characterName": "Shedletsky",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "two-time-1",
+      "name": "Oblation",
+      "characterId": "two-time",
+      "characterName": "Two Time",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "two-time-2",
+      "name": "Sacrificial Dagger",
+      "characterId": "two-time",
+      "characterName": "Two Time",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "two-time-3",
+      "name": "Crouch",
+      "characterId": "two-time",
+      "characterName": "Two Time",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "two-time-4",
+      "name": "Pray",
+      "characterId": "two-time",
+      "characterName": "Two Time",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "two-time-5",
+      "name": "Ritual",
+      "characterId": "two-time",
+      "characterName": "Two Time",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "veeronica-1",
+      "name": "Metal Frame",
+      "characterId": "veeronica",
+      "characterName": "Veeronica",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "veeronica-2",
+      "name": "Vandalism",
+      "characterId": "veeronica",
+      "characterName": "Veeronica",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "veeronica-3",
+      "name": "Sk8",
+      "characterId": "veeronica",
+      "characterName": "Veeronica",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "veeronica-4",
+      "name": "Broadcast",
+      "characterId": "veeronica",
+      "characterName": "Veeronica",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "veeronica-5",
+      "name": "Activate Battery",
+      "characterId": "veeronica",
+      "characterName": "Veeronica",
+      "side": "Survivor",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "1x1x1x1-1",
+      "name": "Slash",
+      "characterId": "1x1x1x1",
+      "characterName": "1x1x1x1",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "1x1x1x1"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "1x1x1x1-2",
+      "name": "Mass Infection",
+      "characterId": "1x1x1x1",
+      "characterName": "1x1x1x1",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "1x1x1x1"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "1x1x1x1-3",
+      "name": "Entanglement",
+      "characterId": "1x1x1x1",
+      "characterName": "1x1x1x1",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "1x1x1x1"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "1x1x1x1-4",
+      "name": "Unstable Eye",
+      "characterId": "1x1x1x1",
+      "characterName": "1x1x1x1",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "1x1x1x1"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "1x1x1x1-5",
+      "name": "Rejuvenate the Rotten",
+      "characterId": "1x1x1x1",
+      "characterName": "1x1x1x1",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "1x1x1x1"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "azure-1",
+      "name": "Echolocation",
+      "characterId": "azure",
+      "characterName": "Azure",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "azure-2",
+      "name": "Atropic",
+      "characterId": "azure",
+      "characterName": "Azure",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "azure-3",
+      "name": "Senescence",
+      "characterId": "azure",
+      "characterName": "Azure",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "azure-4",
+      "name": "Perforating",
+      "characterId": "azure",
+      "characterName": "Azure",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "azure-5",
+      "name": "Seeker Bulb",
+      "characterId": "azure",
+      "characterName": "Azure",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "azure-6",
+      "name": "Stigmatize",
+      "characterId": "azure",
+      "characterName": "Azure",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "azure-7",
+      "name": "Enstrangle",
+      "characterId": "azure",
+      "characterName": "Azure",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "azure-8",
+      "name": "Inflorescence",
+      "characterId": "azure",
+      "characterName": "Azure",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "c00lkidd-1",
+      "name": "Punch",
+      "characterId": "c00lkidd",
+      "characterName": "c00lkidd",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "c00lkidd-2",
+      "name": "Corrupt Nature",
+      "characterId": "c00lkidd",
+      "characterName": "c00lkidd",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "c00lkidd-3",
+      "name": "Walkspeed Override",
+      "characterId": "c00lkidd",
+      "characterName": "c00lkidd",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "c00lkidd-4",
+      "name": "Pizza Delivery",
+      "characterId": "c00lkidd",
+      "characterName": "c00lkidd",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "guest-666-1",
+      "name": "Manic Fixation",
+      "characterId": "guest-666",
+      "characterName": "Guest 666",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "guest-666-2",
+      "name": "Hellforged Will",
+      "characterId": "guest-666",
+      "characterName": "Guest 666",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "guest-666-3",
+      "name": "Bloodhound",
+      "characterId": "guest-666",
+      "characterName": "Guest 666",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "guest-666-4",
+      "name": "Sense of Fear",
+      "characterId": "guest-666",
+      "characterName": "Guest 666",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "guest-666-5",
+      "name": "Carving Slash",
+      "characterId": "guest-666",
+      "characterName": "Guest 666",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "guest-666-6",
+      "name": "Eviscerate",
+      "characterId": "guest-666",
+      "characterName": "Guest 666",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "guest-666-7",
+      "name": "Demonic Pursuit",
+      "characterId": "guest-666",
+      "characterName": "Guest 666",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "guest-666-8",
+      "name": "Infernal Cry",
+      "characterId": "guest-666",
+      "characterName": "Guest 666",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "john-doe-1",
+      "name": "Till Death Do Us Part",
+      "characterId": "john-doe",
+      "characterName": "John Doe",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "john-doe-2",
+      "name": "Natural Malevolence",
+      "characterId": "john-doe",
+      "characterName": "John Doe",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "john-doe-3",
+      "name": "Unstoppable",
+      "characterId": "john-doe",
+      "characterName": "John Doe",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "john-doe-4",
+      "name": "Slash",
+      "characterId": "john-doe",
+      "characterName": "John Doe",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "john-doe-5",
+      "name": "Corrupt Energy",
+      "characterId": "john-doe",
+      "characterName": "John Doe",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "john-doe-6",
+      "name": "Digital Footprint",
+      "characterId": "john-doe",
+      "characterName": "John Doe",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "john-doe-7",
+      "name": "404 Error",
+      "characterId": "john-doe",
+      "characterName": "John Doe",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "john-doe-8",
+      "name": "Teapot Attack",
+      "characterId": "john-doe",
+      "characterName": "John Doe",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "noli-1",
+      "name": "Hallucinations",
+      "characterId": "noli",
+      "characterName": "Noli",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "noli-2",
+      "name": "Prankster",
+      "characterId": "noli",
+      "characterName": "Noli",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "noli-3",
+      "name": "Stab",
+      "characterId": "noli",
+      "characterName": "Noli",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "noli-4",
+      "name": "Void Rush",
+      "characterId": "noli",
+      "characterName": "Noli",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "noli-5",
+      "name": "Nova",
+      "characterId": "noli",
+      "characterName": "Noli",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "noli-6",
+      "name": "Observant",
+      "characterId": "noli",
+      "characterName": "Noli",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "noli-7",
+      "name": "Fifth Sequence",
+      "characterId": "noli",
+      "characterName": "Noli",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "noli-8",
+      "name": "Shard Stab",
+      "characterId": "noli",
+      "characterName": "Noli",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "nosferatu-1",
+      "name": "Levitation",
+      "characterId": "nosferatu",
+      "characterName": "Nosferatu",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "nosferatu-2",
+      "name": "Lacerate",
+      "characterId": "nosferatu",
+      "characterName": "Nosferatu",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "nosferatu-3",
+      "name": "Bloodhook",
+      "characterId": "nosferatu",
+      "characterName": "Nosferatu",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "nosferatu-4",
+      "name": "Cataclysm",
+      "characterId": "nosferatu",
+      "characterName": "Nosferatu",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "nosferatu-5",
+      "name": "Hunter’s Feast",
+      "characterId": "nosferatu",
+      "characterName": "Nosferatu",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "nosferatu-6",
+      "name": "Ascension",
+      "characterId": "nosferatu",
+      "characterName": "Nosferatu",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "nosferatu-7",
+      "name": "Dismount",
+      "characterId": "nosferatu",
+      "characterName": "Nosferatu",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "slasher-1",
+      "name": "Slash",
+      "characterId": "slasher",
+      "characterName": "Slasher",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "slasher-2",
+      "name": "Behead",
+      "characterId": "slasher",
+      "characterName": "Slasher",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "slasher-3",
+      "name": "Gashing Wound",
+      "characterId": "slasher",
+      "characterName": "Slasher",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "slasher-4",
+      "name": "Raging Pace",
+      "characterId": "slasher",
+      "characterName": "Slasher",
+      "side": "Killer",
+      "description": null,
+      "cooldown": null,
+      "effects": [],
+      "notes": "Nome riportato dalla fonte; descrizione e cooldown non sincronizzati in questa build.",
+      "status": "partial",
+      "sourceIds": [
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    }
+  ]
+}

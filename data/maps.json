@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "title": "Maps",
+    "description": "19 mappe elencate da fonti community; layout estesi disponibili solo per alcune.",
+    "category": "maps",
+    "gameVersion": "5.4.2",
+    "lastVerified": "2026-11-18",
+    "coverage": "starter-dataset-not-complete"
+  },
+  "items": [
+    {
+      "id": "brandon-place",
+      "name": "Brandon6875935's Place",
+      "description": "Mappa aperta con pareti-labirinto, castello e aree di costruzione. Presente un obiettivo secondario di pulizia graffiti secondo la guida community.",
+      "environment": "Aperta · castello · maze",
+      "layout": null,
+      "pointsOfInterest": [],
+      "survivorStrategy": null,
+      "killerStrategy": null,
+      "variants": [],
+      "rotationStatus": "Da verificare nel client",
+      "status": "verified-community",
+      "sourceIds": [
+        "maps",
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "glass-houses",
+      "name": "Glass Houses",
+      "description": "Area boschiva con due rilievi vetrati collegati da un ponte rosso.",
+      "environment": "Bosco · ponti · rilievi",
+      "layout": null,
+      "pointsOfInterest": [],
+      "survivorStrategy": null,
+      "killerStrategy": null,
+      "variants": [],
+      "rotationStatus": "Da verificare nel client",
+      "status": "verified-community",
+      "sourceIds": [
+        "maps",
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "horror-hotel",
+      "name": "Horror Hotel",
+      "description": "Hotel con corridoi, cucina, sala giochi e aree esterne. La guida riporta l’obiettivo secondario Feed the Orange.",
+      "environment": "Hotel · corridoi · obiettivo",
+      "layout": null,
+      "pointsOfInterest": [],
+      "survivorStrategy": null,
+      "killerStrategy": null,
+      "variants": [],
+      "rotationStatus": "Da verificare nel client",
+      "status": "verified-community",
+      "sourceIds": [
+        "maps",
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "ultimate-assassin-grounds",
+      "name": "Ultimate Assassin Grounds",
+      "description": "Arena in stile dojo attorno a un lago, con grotte, edifici e percorso sopra l’acqua.",
+      "environment": "Dojo · lago · grotte",
+      "layout": null,
+      "pointsOfInterest": [],
+      "survivorStrategy": null,
+      "killerStrategy": null,
+      "variants": [],
+      "rotationStatus": "Da verificare nel client",
+      "status": "verified-community",
+      "sourceIds": [
+        "maps",
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "c00l-carnival",
+      "name": "C00l Carnival",
+      "description": "Nome presente nell’indice mappe della community; layout da documentare.",
+      "environment": "Carnevale · dati limitati",
+      "layout": null,
+      "pointsOfInterest": [],
+      "survivorStrategy": null,
+      "killerStrategy": null,
+      "variants": [],
+      "rotationStatus": "Da verificare nel client",
+      "status": "partial",
+      "sourceIds": [
+        "maps",
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "underground-war",
+      "name": "Underground War",
+      "description": "Mappa presente nell’indice; la fonte segnala ascensori riservati al Killer in un aggiornamento successivo.",
+      "environment": "Sotterranea · ascensori",
+      "layout": null,
+      "pointsOfInterest": [],
+      "survivorStrategy": null,
+      "killerStrategy": null,
+      "variants": [],
+      "rotationStatus": "Da verificare nel client",
+      "status": "verified-community",
+      "sourceIds": [
+        "maps",
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "pirate-bay",
+      "name": "Pirate Bay",
+      "description": "Mappa presente nell’indice community; dettagli di layout non sincronizzati.",
+      "environment": "Pirata · dati limitati",
+      "layout": null,
+      "pointsOfInterest": [],
+      "survivorStrategy": null,
+      "killerStrategy": null,
+      "variants": [],
+      "rotationStatus": "Da verificare nel client",
+      "status": "partial",
+      "sourceIds": [
+        "maps",
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "builder-brothers-pizza",
+      "name": "Builder Brothers Pizza",
+      "description": "Mappa presente nell’indice community; dettagli di layout da verificare.",
+      "environment": "Pizzeria · dati limitati",
+      "layout": null,
+      "pointsOfInterest": [],
+      "survivorStrategy": null,
+      "killerStrategy": null,
+      "variants": [],
+      "rotationStatus": "Da verificare nel client",
+      "status": "partial",
+      "sourceIds": [
+        "maps",
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "the-tempest",
+      "name": "The Tempest",
+      "description": "Mappa presente nell’indice community; layout da documentare.",
+      "environment": "Dati limitati",
+      "layout": null,
+      "pointsOfInterest": [],
+      "survivorStrategy": null,
+      "killerStrategy": null,
+      "variants": [],
+      "rotationStatus": "Da verificare nel client",
+      "status": "verified-community",
+      "sourceIds": [
+        "maps",
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "cake-factory",
+      "name": "Cake Factory",
+      "description": "Mappa di ambientazione industriale; la guida descrive piattaforma centrale, uffici e zone di servizio.",
+      "environment": "Fabbrica · piattaforma",
+      "layout": null,
+      "pointsOfInterest": [],
+      "survivorStrategy": null,
+      "killerStrategy": null,
+      "variants": [],
+      "rotationStatus": "Da verificare nel client",
+      "status": "verified-community",
+      "sourceIds": [
+        "maps",
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "beach-house-paradise",
+      "name": "Beach House Paradise",
+      "description": "Resort costiero con hotel, negozi, galleria e fontana centrale.",
+      "environment": "Resort · spiaggia · fontana",
+      "layout": null,
+      "pointsOfInterest": [],
+      "survivorStrategy": null,
+      "killerStrategy": null,
+      "variants": [],
+      "rotationStatus": "Da verificare nel client",
+      "status": "verified-community",
+      "sourceIds": [
+        "maps",
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "classic-battlegrounds",
+      "name": "Classic Battlegrounds",
+      "description": "Mappa a due livelli con edifici rialzati, fogne, tempio e cascata.",
+      "environment": "Arena · livelli · fogne",
+      "layout": null,
+      "pointsOfInterest": [],
+      "survivorStrategy": null,
+      "killerStrategy": null,
+      "variants": [],
+      "rotationStatus": "Da verificare nel client",
+      "status": "verified-community",
+      "sourceIds": [
+        "maps",
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "bloodfell-manor",
+      "name": "Bloodfell Manor",
+      "description": "Maniero vittoriano associato a Nosferatu, con cortile, biblioteca e grandi scale.",
+      "environment": "Maniero · giardino · interni",
+      "layout": null,
+      "pointsOfInterest": [],
+      "survivorStrategy": null,
+      "killerStrategy": null,
+      "variants": [],
+      "rotationStatus": "Da verificare nel client",
+      "status": "verified-community",
+      "sourceIds": [
+        "maps",
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "familiar-ruins",
+      "name": "Familiar Ruins",
+      "description": "Rovine con edificio principale e terreno vulcanico. Le crepe di lava sono descritte come pericolo ambientale.",
+      "environment": "Rovine · lava · terreno aperto",
+      "layout": null,
+      "pointsOfInterest": [],
+      "survivorStrategy": null,
+      "killerStrategy": null,
+      "variants": [],
+      "rotationStatus": "Da verificare nel client",
+      "status": "verified-community",
+      "sourceIds": [
+        "maps",
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "natural-disaster-island",
+      "name": "Natural Disaster Island",
+      "description": "Isola abbandonata con distributore, supermercato e fabbrica.",
+      "environment": "Isola · fabbrica · nebbia",
+      "layout": null,
+      "pointsOfInterest": [],
+      "survivorStrategy": null,
+      "killerStrategy": null,
+      "variants": [],
+      "rotationStatus": "Da verificare nel client",
+      "status": "verified-community",
+      "sourceIds": [
+        "maps",
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "reborn-family-abode",
+      "name": "Reborn Family Abode",
+      "description": "Ambientazione di Azure con chiesa, serra, cimitero e dormitori.",
+      "environment": "Chiesa · serra · cimitero",
+      "layout": null,
+      "pointsOfInterest": [],
+      "survivorStrategy": null,
+      "killerStrategy": null,
+      "variants": [],
+      "rotationStatus": "Da verificare nel client",
+      "status": "verified-community",
+      "sourceIds": [
+        "maps",
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "roblox-hq",
+      "name": "Roblox HQ",
+      "description": "Sede corrotta con due torri, piccolo ospedale e una zona centrale pericolosa.",
+      "environment": "Uffici · torri · corruzione",
+      "layout": null,
+      "pointsOfInterest": [],
+      "survivorStrategy": null,
+      "killerStrategy": null,
+      "variants": [],
+      "rotationStatus": "Da verificare nel client",
+      "status": "verified-community",
+      "sourceIds": [
+        "maps",
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "robloxian-highschool",
+      "name": "Robloxian Highschool",
+      "description": "Nuova mappa segnalata nell’update Forsakenween 5.4.0.",
+      "environment": "Scuola · nuova mappa",
+      "layout": null,
+      "pointsOfInterest": [],
+      "survivorStrategy": null,
+      "killerStrategy": null,
+      "variants": [],
+      "rotationStatus": "Da verificare nel client",
+      "status": "verified-community",
+      "sourceIds": [
+        "maps",
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    },
+    {
+      "id": "yoricks-resting-place",
+      "name": "Yorick's Resting Place",
+      "description": "Mappa reworkata in 5.4.0 con un obiettivo che apre un maniero; 5.4.1 ne corregge la disponibilità nella rotazione.",
+      "environment": "Maniero · rework · obiettivo",
+      "layout": null,
+      "pointsOfInterest": [],
+      "survivorStrategy": null,
+      "killerStrategy": null,
+      "variants": [],
+      "rotationStatus": "Da verificare nel client",
+      "status": "verified-community",
+      "sourceIds": [
+        "maps",
+        "patchlog"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": "5.4.2"
+    }
+  ]
+}

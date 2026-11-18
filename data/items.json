@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "Items",
+    "description": "Pickup e oggetti documentati nelle guide consultate.",
+    "category": "items",
+    "gameVersion": "5.4.2",
+    "lastVerified": "2026-11-18",
+    "coverage": "starter-dataset"
+  },
+  "items": [
+    {
+      "id": "bloxy-cola",
+      "name": "Bloxy Cola",
+      "description": "Oggetto elencato nel kit di Noob e tra i pickup documentati su Horror Hotel. Effetto e parametri vanno confermati sulla versione corrente.",
+      "effect": null,
+      "availability": "In-game",
+      "sourceIds": [
+        "survivors_stats",
+        "maps"
+      ],
+      "status": "partial"
+    },
+    {
+      "id": "ghostburger",
+      "name": "GhostBurger",
+      "description": "Oggetto del kit di Noob riportato dalla guida community. Dettagli numerici non sincronizzati.",
+      "effect": null,
+      "availability": "Kit Noob",
+      "sourceIds": [
+        "survivors_stats"
+      ],
+      "status": "partial"
+    },
+    {
+      "id": "slateskin-potion",
+      "name": "Slateskin Potion",
+      "description": "Oggetto del kit di Noob riportato dalla guida community. Dettagli numerici non sincronizzati.",
+      "effect": null,
+      "availability": "Kit Noob",
+      "sourceIds": [
+        "survivors_stats"
+      ],
+      "status": "partial"
+    },
+    {
+      "id": "medkit",
+      "name": "Medkit",
+      "description": "Pickup segnalato nella mappa Horror Hotel; posizioni e disponibilità richiedono verifica in-game.",
+      "effect": null,
+      "availability": "Mappa: Horror Hotel",
+      "sourceIds": [
+        "maps"
+      ],
+      "status": "partial"
+    },
+    {
+      "id": "spray-bottle",
+      "name": "Spray Bottle",
+      "description": "Strumento associato all’obiettivo Clean Graffiti su Brandonworks; una patch ha rimosso il requisito in un aggiornamento successivo.",
+      "effect": null,
+      "availability": "Obiettivo mappa (stato da riverificare)",
+      "sourceIds": [
+        "newbeginnings",
+        "patchlog"
+      ],
+      "status": "partial"
+    }
+  ]
+}

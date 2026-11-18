@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Badges & Achievements",
+    "description": "Obiettivi collegati a fonti specifiche. Requisiti non disponibili restano indicati come mancanti.",
+    "category": "badges",
+    "gameVersion": "5.4.2",
+    "lastVerified": "2026-11-18",
+    "coverage": "starter-dataset"
+  },
+  "items": [
+    {
+      "id": "glimpse-into-doom",
+      "name": "Glimpse Into Doom",
+      "description": "Badge associato all’ottenimento della skin Juggernaut di Guest 1337 secondo la patch 5.4.2. Requisiti esatti da controllare in-game.",
+      "reward": "Juggernaut Guest 1337",
+      "status": "confirmed-update",
+      "sourceIds": [
+        "patchlog"
+      ]
+    },
+    {
+      "id": "tricked-ya",
+      "name": "Tricked Ya!",
+      "description": "Achievement indicato nella pagina 007n7: il Killer deve colpire il clone.",
+      "reward": null,
+      "status": "community-confirmed",
+      "sourceIds": [
+        "007n7"
+      ]
+    },
+    {
+      "id": "alt-tab",
+      "name": "Alt + Tab",
+      "description": "Achievement indicato nella pagina 007n7, collegato all’uso di c00lgui durante una situazione ravvicinata.",
+      "reward": null,
+      "status": "community-confirmed",
+      "sourceIds": [
+        "007n7"
+      ]
+    },
+    {
+      "id": "severe-and-continuous",
+      "name": "Severe And Continuous",
+      "description": "Achievement indicato nella pagina 007n7, collegato all’uso di c00lgui.",
+      "reward": null,
+      "status": "community-confirmed",
+      "sourceIds": [
+        "007n7"
+      ]
+    }
+  ]
+}

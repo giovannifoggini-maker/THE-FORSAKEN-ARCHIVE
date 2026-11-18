@@ -1,0 +1,22 @@
+{
+  "name": "The Forsaken Archive | FogLabs",
+  "short_name": "Forsaken Archive",
+  "description": "Community encyclopedia for Roblox Forsaken.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#100b12",
+  "theme_color": "#180b13",
+  "icons": [
+    {
+      "src": "assets/icons/archive-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

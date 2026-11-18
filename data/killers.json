@@ -1,0 +1,392 @@
+{
+  "meta": {
+    "title": "Killers",
+    "description": "Roster Killer iniziale: 8 voci riportate da fonti community.",
+    "category": "killers",
+    "gameVersion": "5.4.2",
+    "lastVerified": "2026-11-18",
+    "coverage": "starter-dataset"
+  },
+  "items": [
+    {
+      "id": "1x1x1x1",
+      "name": "1x1x1x1",
+      "side": "Killer",
+      "role": "Zoner",
+      "unlock": "1.250 PP",
+      "description": "Killer zoner con attacchi a distanza e controllo dell’area. La salute riportata (102.550) è un outlier rispetto agli altri killer ed è marcata come dato anomalo dalla fonte community.",
+      "description_en": "Killer zoner con attacchi a distanza e controllo dell’area. La salute riportata (102.550) è un outlier rispetto agli altri killer ed è marcata come dato anomalo dalla fonte community.",
+      "playstyle": "Zoning · pressione a distanza",
+      "stats": {
+        "health": "102.550*",
+        "walkSpeed": 8,
+        "sprintSpeed": 27,
+        "stamina": 110,
+        "terrorRadius": 75,
+        "difficulty": "4/5"
+      },
+      "abilities": [
+        "Slash",
+        "Mass Infection",
+        "Entanglement",
+        "Unstable Eye",
+        "Rejuvenate the Rotten"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": "https://rowikis.com/forsaken/img/characters/1x1x1x1.webp",
+      "imageCredit": "rowikis",
+      "status": "flagged",
+      "tags": [
+        "killer",
+        "zoner",
+        "ranged",
+        "anomaly"
+      ],
+      "sourceIds": [
+        "1x1x1x1"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": null,
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; anomaly flagged)"
+    },
+    {
+      "id": "azure",
+      "name": "Azure",
+      "side": "Killer",
+      "role": "Zoner",
+      "unlock": "2.000 PP",
+      "description": "Killer zoner introdotto in Azure’s Wrath. Le fonti riportano varianti di velocità durante lo stato Golem; i valori contestuali sono da sincronizzare.",
+      "description_en": "Killer zoner introdotto in Azure’s Wrath. Le fonti riportano varianti di velocità durante lo stato Golem; i valori contestuali sono da sincronizzare.",
+      "playstyle": "Zoning · pressione area",
+      "stats": {
+        "health": 1500,
+        "walkSpeed": "9.25 (9 Golem)",
+        "sprintSpeed": "27.25 (30 Golem)",
+        "stamina": "110 (50 Golem)",
+        "terrorRadius": 75,
+        "difficulty": "5/5"
+      },
+      "abilities": [
+        "Echolocation",
+        "Atropic",
+        "Senescence",
+        "Perforating",
+        "Seeker Bulb",
+        "Stigmatize",
+        "Enstrangle",
+        "Inflorescence"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "partial",
+      "tags": [
+        "killer",
+        "zoner",
+        "area-control"
+      ],
+      "sourceIds": [
+        "rblxguide",
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": null,
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+    },
+    {
+      "id": "c00lkidd",
+      "name": "c00lkidd",
+      "side": "Killer",
+      "role": "Rushdown",
+      "unlock": "Gratis",
+      "description": "Killer rushdown disponibile gratuitamente secondo le guide community. Il suo kit comprende attacchi e strumenti di inseguimento.",
+      "description_en": "Killer rushdown disponibile gratuitamente secondo le guide community. Il suo kit comprende attacchi e strumenti di inseguimento.",
+      "playstyle": "Rushdown · inseguimento",
+      "stats": {
+        "health": 1000,
+        "walkSpeed": 7.75,
+        "sprintSpeed": 28,
+        "stamina": 110,
+        "terrorRadius": 75,
+        "difficulty": "3/5"
+      },
+      "abilities": [
+        "Punch",
+        "Corrupt Nature",
+        "Walkspeed Override",
+        "Pizza Delivery"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "verified-community",
+      "tags": [
+        "killer",
+        "rushdown",
+        "starter"
+      ],
+      "sourceIds": [
+        "rblxguide",
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": null,
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+    },
+    {
+      "id": "guest-666",
+      "name": "Guest 666",
+      "side": "Killer",
+      "role": "Snowball / Attrition",
+      "unlock": "1.666 PP",
+      "description": "Killer orientato all’attrition. Il changelog New Beginnings ha modificato velocità e parametri di alcune abilità: verificare i valori con la patch attuale.",
+      "description_en": "Killer orientato all’attrition. Il changelog New Beginnings ha modificato velocità e parametri di alcune abilità: verificare i valori con la patch attuale.",
+      "playstyle": "Attrition · snowball",
+      "stats": {
+        "health": 2750,
+        "walkSpeed": 9,
+        "sprintSpeed": 27.5,
+        "stamina": 110,
+        "terrorRadius": 112.5,
+        "difficulty": "3/5"
+      },
+      "abilities": [
+        "Manic Fixation",
+        "Hellforged Will",
+        "Bloodhound",
+        "Sense of Fear",
+        "Carving Slash",
+        "Eviscerate",
+        "Demonic Pursuit",
+        "Infernal Cry"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "partial",
+      "tags": [
+        "killer",
+        "attrition",
+        "tracking"
+      ],
+      "sourceIds": [
+        "rblxguide",
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": null,
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+    },
+    {
+      "id": "john-doe",
+      "name": "John Doe",
+      "side": "Killer",
+      "role": "Zoner / Trapper",
+      "unlock": "Da verificare in-game (fonti discordanti)",
+      "description": "Killer zoner e trappola. Le fonti consultate mostrano differenze importanti nei valori di prezzo tra alcuni siti; il prezzo rimane da verificare nel negozio in-game.",
+      "description_en": "Killer zoner e trappola. Le fonti consultate mostrano differenze importanti nei valori di prezzo tra alcuni siti; il prezzo rimane da verificare nel negozio in-game.",
+      "playstyle": "Trappole · controllo area",
+      "stats": {
+        "health": 2300,
+        "walkSpeed": 9,
+        "sprintSpeed": 27.25,
+        "stamina": 110,
+        "terrorRadius": 60,
+        "difficulty": "5/5"
+      },
+      "abilities": [
+        "Till Death Do Us Part",
+        "Natural Malevolence",
+        "Unstoppable",
+        "Slash",
+        "Corrupt Energy",
+        "Digital Footprint",
+        "404 Error",
+        "Teapot Attack"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "partial",
+      "tags": [
+        "killer",
+        "zoner",
+        "trapper"
+      ],
+      "sourceIds": [
+        "killers_stats",
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": null,
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+    },
+    {
+      "id": "noli",
+      "name": "Noli",
+      "side": "Killer",
+      "role": "Rushdown / Deception",
+      "unlock": "1.100 PP",
+      "description": "Killer con elementi di inseguimento e inganno.",
+      "description_en": "Killer con elementi di inseguimento e inganno.",
+      "playstyle": "Rushdown · deception",
+      "stats": {
+        "health": 2222,
+        "walkSpeed": 8,
+        "sprintSpeed": 27.5,
+        "stamina": 110,
+        "terrorRadius": 100,
+        "difficulty": "5/5"
+      },
+      "abilities": [
+        "Hallucinations",
+        "Prankster",
+        "Stab",
+        "Void Rush",
+        "Nova",
+        "Observant",
+        "Fifth Sequence",
+        "Shard Stab"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "verified-community",
+      "tags": [
+        "killer",
+        "rushdown",
+        "deception"
+      ],
+      "sourceIds": [
+        "killers_stats",
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": null,
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+    },
+    {
+      "id": "nosferatu",
+      "name": "Nosferatu",
+      "side": "Killer",
+      "role": "Ambush / Stealth",
+      "unlock": "1.922 PP",
+      "description": "Killer con elementi di imboscata e furtività. Le fonti di community riportano kit e parametri che possono cambiare con i bilanciamenti.",
+      "description_en": "Killer con elementi di imboscata e furtività. Le fonti di community riportano kit e parametri che possono cambiare con i bilanciamenti.",
+      "playstyle": "Imboscata · furtività",
+      "stats": {
+        "health": 1750,
+        "walkSpeed": 7.5,
+        "sprintSpeed": 27.5,
+        "stamina": 110,
+        "terrorRadius": 75,
+        "difficulty": "4/5"
+      },
+      "abilities": [
+        "Levitation",
+        "Lacerate",
+        "Bloodhook",
+        "Cataclysm",
+        "Hunter’s Feast",
+        "Ascension",
+        "Dismount"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "verified-community",
+      "tags": [
+        "killer",
+        "ambush",
+        "stealth"
+      ],
+      "sourceIds": [
+        "killers_stats",
+        "rblxguide"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": null,
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+    },
+    {
+      "id": "slasher",
+      "name": "Slasher",
+      "side": "Killer",
+      "role": "Rushdown / Stealth",
+      "unlock": "Gratis",
+      "description": "Killer gratuito che ha sostituito Jason con il rework 3.1.0. Le vecchie guide che usano il nome Jason possono riferirsi a dati storici.",
+      "description_en": "Killer gratuito che ha sostituito Jason con il rework 3.1.0. Le vecchie guide che usano il nome Jason possono riferirsi a dati storici.",
+      "playstyle": "Rushdown · furtività",
+      "stats": {
+        "health": 2000,
+        "walkSpeed": 9,
+        "sprintSpeed": 28,
+        "stamina": 110,
+        "terrorRadius": 62.5,
+        "difficulty": "2/5"
+      },
+      "abilities": [
+        "Slash",
+        "Behead",
+        "Gashing Wound",
+        "Raging Pace"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "skins": [],
+      "milestones": [],
+      "lore": null,
+      "curiosities": [],
+      "image": null,
+      "imageCredit": null,
+      "status": "verified-community",
+      "tags": [
+        "killer",
+        "rushdown",
+        "starter"
+      ],
+      "sourceIds": [
+        "rblxguide",
+        "killers_stats"
+      ],
+      "lastVerified": "2026-11-18",
+      "gameVersion": null,
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+    }
+  ]
+}

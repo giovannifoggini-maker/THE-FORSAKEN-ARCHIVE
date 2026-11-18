@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "Guides",
+    "description": "Guide sintetiche originali con collegamenti alle fonti consultate.",
+    "category": "guides",
+    "gameVersion": "5.4.2",
+    "lastVerified": "2026-11-18",
+    "coverage": "starter-dataset"
+  },
+  "items": [
+    {
+      "id": "round-basics",
+      "title": "Come funziona un round",
+      "level": "Principiante",
+      "summary": "Un giocatore viene selezionato come Killer, gli altri giocano come Survivor. I Survivor completano gli obiettivi e cercano di resistere fino alla fine del timer.",
+      "sections": [
+        "Ruoli",
+        "Obiettivi",
+        "Vittoria e sconfitta"
+      ],
+      "sourceIds": [
+        "rblxguide",
+        "rowikis"
+      ],
+      "status": "community-guide"
+    },
+    {
+      "id": "generators",
+      "title": "Generatori e obiettivi",
+      "level": "Principiante",
+      "summary": "Le fonti indicano cinque generatori da completare per round; alcuni aggiornamenti hanno aggiunto obiettivi secondari specifici per mappa.",
+      "sections": [
+        "Puzzle",
+        "Obiettivi secondari",
+        "Rotazioni"
+      ],
+      "sourceIds": [
+        "maps",
+        "newbeginnings"
+      ],
+      "status": "community-guide"
+    },
+    {
+      "id": "stamina",
+      "title": "Stamina e sprint",
+      "level": "Intermedio",
+      "summary": "Le statistiche community riportano economie di stamina diverse tra Survivor e Killer. Valori e modifiche specifiche a 2v12 vanno letti per versione.",
+      "sections": [
+        "Consumo",
+        "Rigenerazione",
+        "Differenze modalità"
+      ],
+      "sourceIds": [
+        "survivors_stats",
+        "killers_stats",
+        "patchlog"
+      ],
+      "status": "partial"
+    },
+    {
+      "id": "map-horror-hotel",
+      "title": "Orientarsi a Horror Hotel",
+      "level": "Intermedio",
+      "summary": "La mappa è descritta con due corridoi principali, camere, reception, arcade e area esterna. È riportato anche un obiettivo secondario.",
+      "sections": [
+        "Aree principali",
+        "Obiettivo secondario",
+        "Pickup segnalati"
+      ],
+      "sourceIds": [
+        "maps"
+      ],
+      "status": "community-guide"
+    },
+    {
+      "id": "007n7-kit",
+      "title": "Leggere il kit di 007n7",
+      "level": "Avanzato",
+      "summary": "La pagina community documenta Clone, c00lgui e Inject. I cooldown descritti sono uno snapshot e possono cambiare con le patch.",
+      "sections": [
+        "Clone",
+        "c00lgui",
+        "Inject"
+      ],
+      "sourceIds": [
+        "007n7"
+      ],
+      "status": "community-guide"
+    }
+  ]
+}

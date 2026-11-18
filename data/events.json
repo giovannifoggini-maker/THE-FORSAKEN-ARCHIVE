@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "title": "Events",
+    "description": "Eventi ricavati da cronologie e update notes community.",
+    "category": "events",
+    "gameVersion": "5.4.2",
+    "lastVerified": "2026-11-18",
+    "coverage": "starter-dataset"
+  },
+  "items": [
+    {
+      "id": "forsakenween-2026",
+      "name": "Forsakenween",
+      "date": "2026-10 / 2026-11",
+      "summary": "Evento stagionale introdotto con la versione 5.4.0: cosmetici a tempo, raccolta di Candy, missioni, nuova modalità 2v12 e Robloxian Highschool.",
+      "status": "past-or-current-check",
+      "sourceIds": [
+        "patchlog"
+      ]
+    },
+    {
+      "id": "summer-games-2026",
+      "name": "Summer Games",
+      "date": "2026-08-29",
+      "summary": "Evento/trailer indicato dalle fonti community. I contenuti completi non sono documentati nel database iniziale.",
+      "status": "partial",
+      "sourceIds": [
+        "fw"
+      ]
+    },
+    {
+      "id": "new-beginnings",
+      "name": "New Beginnings",
+      "date": "2026-10-16",
+      "summary": "Aggiornamento con nuova lobby, Helperbot, puzzle generatori, obiettivi mappa e numerose aggiunte cosmetiche.",
+      "status": "confirmed-update",
+      "sourceIds": [
+        "newbeginnings"
+      ]
+    }
+  ]
+}

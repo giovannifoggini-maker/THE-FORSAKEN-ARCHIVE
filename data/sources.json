@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Sources",
+    "description": "Indice delle fonti utilizzate e delle relative limitazioni.",
+    "category": "sources",
+    "gameVersion": "5.4.2",
+    "lastVerified": "2026-11-18",
+    "coverage": "starter-dataset"
+  },
+  "items": [
+    {
+      "id": "roblox",
+      "title": "Esperienza ufficiale Roblox",
+      "url": "https://www.roblox.com/games/18687417158/Forsaken",
+      "kind": "official game",
+      "licenseNote": "Link alla fonte; immagini non incluse nel pacchetto."
+    },
+    {
+      "id": "fw",
+      "title": "Forsaken Wiki — community",
+      "url": "https://forsakenwiki.com/",
+      "kind": "community wiki",
+      "licenseNote": "Wiki fan-made; la pagina About dichiara contenuti adattati dal wiki originale con licenza CC BY-SA 4.0."
+    },
+    {
+      "id": "rowikis",
+      "title": "rowikis — Forsaken",
+      "url": "https://rowikis.com/forsaken/",
+      "kind": "community wiki",
+      "licenseNote": "Guida fan-made; verificare sempre i dati nel gioco e nelle note ufficiali."
+    },
+    {
+      "id": "rblxguide",
+      "title": "RBLXGUIDE — Forsaken",
+      "url": "https://rblxguide.com/games/forsaken",
+      "kind": "community guide",
+      "licenseNote": "Raccolta fan-made basata su fonti community; utile come riscontro incrociato."
+    },
+    {
+      "id": "patchlog",
+      "title": "RBLXGUIDE — changelog 5.4.2",
+      "url": "https://rblxguide.com/games/forsaken/update-log",
+      "kind": "community patch index",
+      "licenseNote": "Cronologia community; per l’interpretazione finale dare priorità al changelog in-game."
+    },
+    {
+      "id": "newbeginnings",
+      "title": "New Beginnings — 16 ottobre 2026",
+      "url": "https://rowikis.com/forsaken/updates/2026-10-16/",
+      "kind": "community patch notes",
+      "licenseNote": "Link alla fonte; immagini non incluse nel pacchetto."
+    },
+    {
+      "id": "survivors_stats",
+      "title": "Forsakens Wiki — Survivor stats",
+      "url": "https://forsakens.wiki/survivors/",
+      "kind": "community stats",
+      "licenseNote": "Statistiche riportate dalla wiki; snapshot dichiarato 28 agosto 2026, quindi non necessariamente aggiornato al client corrente."
+    },
+    {
+      "id": "killers_stats",
+      "title": "Forsakens Wiki — Killer stats",
+      "url": "https://forsakens.wiki/killers/",
+      "kind": "community stats",
+      "licenseNote": "Statistiche riportate dalla wiki; snapshot dichiarato 28 agosto 2026, quindi non necessariamente aggiornato al client corrente."
+    },
+    {
+      "id": "maps",
+      "title": "rowikis — Maps",
+      "url": "https://rowikis.com/forsaken/maps/",
+      "kind": "community maps",
+      "licenseNote": "Link alla fonte; immagini non incluse nel pacchetto."
+    },
+    {
+      "id": "007n7",
+      "title": "rowikis — 007n7",
+      "url": "https://rowikis.com/forsaken/survivors/007n7/",
+      "kind": "community character page",
+      "licenseNote": "Link alla fonte; immagini non incluse nel pacchetto."
+    },
+    {
+      "id": "1x1x1x1",
+      "title": "rowikis — 1x1x1x1",
+      "url": "https://rowikis.com/forsaken/killers/1x1x1x1/",
+      "kind": "community character page",
+      "licenseNote": "Link alla fonte; immagini non incluse nel pacchetto."
+    }
+  ]
+}

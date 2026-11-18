@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Lore",
+    "description": "Sintesi originali della lore community, chiaramente etichettate come tali.",
+    "category": "lore",
+    "gameVersion": "5.4.2",
+    "lastVerified": "2026-11-18",
+    "coverage": "starter-dataset"
+  },
+  "items": [
+    {
+      "id": "forsaken-premise",
+      "title": "Il ciclo di Forsaken",
+      "summary": "Forsaken è un horror asimmetrico a round: un Killer affronta una squadra di Survivor. Le fonti descrivono obiettivi, personaggi e ambientazioni ispirati alla storia della community Roblox.",
+      "type": "Worldbuilding",
+      "status": "community-confirmed",
+      "sourceIds": [
+        "fw",
+        "roblox"
+      ]
+    },
+    {
+      "id": "007n7-backstory",
+      "title": "007n7 e c00lkidd",
+      "summary": "La pagina community racconta 007n7 come ex exploiter che cambia vita dopo aver adottato un figlio, identificato come c00lkidd. Questa è una sintesi della lore fan wiki, non una fonte ufficiale degli sviluppatori.",
+      "type": "Character lore",
+      "status": "community-lore",
+      "sourceIds": [
+        "007n7"
+      ]
+    },
+    {
+      "id": "1x1x1x1-origin",
+      "title": "Origine di 1x1x1x1",
+      "summary": "La pagina community lo descrive come manifestazione dell’odio separato da Shedletsky e legato a una versione corrotta della sua storia.",
+      "type": "Character lore",
+      "status": "community-lore",
+      "sourceIds": [
+        "1x1x1x1"
+      ]
+    },
+    {
+      "id": "new-lobby-npcs",
+      "title": "Il nuovo lobby e gli NPC",
+      "summary": "New Beginnings ha introdotto una nuova lobby e circa 161 NPC, con dialoghi collegati ai milestone dei personaggi.",
+      "type": "Worldbuilding / update",
+      "status": "confirmed-update",
+      "sourceIds": [
+        "newbeginnings"
+      ]
+    }
+  ]
+}

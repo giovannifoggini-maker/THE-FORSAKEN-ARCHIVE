@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="it" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08070c">
+  <meta name="description" content="The Forsaken Archive — enciclopedia community di Forsaken su Roblox, curata da FogLabs.">
+  <title>The Forsaken Archive | FogLabs</title>
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="assets/site.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand-lockup">
+        <a class="brand-mark" href="#home" aria-label="The Forsaken Archive home"><img src="assets/icons/archive-icon.png" alt=""></a>
+        <div class="brand-copy"><strong>THE FORSAKEN</strong><small>ARCHIVE <i>by FogLabs</i></small></div>
+        <button class="icon-btn sidebar-close" id="sidebarClose" aria-label="Close menu">×</button>
+      </div>
+      <div class="sidebar-scroll">
+        <div class="side-label" data-i18n="explore">ESPLORA ARCHIVIO</div>
+        <nav class="side-nav" id="mainNav" aria-label="Main navigation">
+          <a class="nav-link active" href="#home" data-route="home"><span class="nav-icon" data-icon="home"></span><span data-i18n="overview">Panoramica</span></a>
+          <a class="nav-link" href="#survivors" data-route="survivors"><span class="nav-icon" data-icon="shield"></span><span>Survivors</span><b>13</b></a>
+          <a class="nav-link" href="#killers" data-route="killers"><span class="nav-icon" data-icon="skull"></span><span>Killers</span><b>08</b></a>
+          <a class="nav-link" href="#skins" data-route="skins"><span class="nav-icon" data-icon="layers"></span><span>Skins & Milestones</span></a>
+          <a class="nav-link" href="#abilities" data-route="abilities"><span class="nav-icon" data-icon="spark"></span><span>Abilities</span></a>
+          <a class="nav-link" href="#maps" data-route="maps"><span class="nav-icon" data-icon="map"></span><span>Maps</span></a>
+          <a class="nav-link" href="#items" data-route="items"><span class="nav-icon" data-icon="box"></span><span>Items</span></a>
+          <a class="nav-link" href="#effects" data-route="effects"><span class="nav-icon" data-icon="activity"></span><span>Status Effects</span></a>
+          <a class="nav-link" href="#emotes" data-route="emotes"><span class="nav-icon" data-icon="smile"></span><span>Emotes</span></a>
+          <a class="nav-link" href="#lore" data-route="lore"><span class="nav-icon" data-icon="book"></span><span>Lore</span></a>
+          <a class="nav-link" href="#badges" data-route="badges"><span class="nav-icon" data-icon="award"></span><span>Badges & Achievements</span></a>
+          <a class="nav-link" href="#events" data-route="events"><span class="nav-icon" data-icon="calendar"></span><span>Events</span></a>
+          <a class="nav-link" href="#updates" data-route="updates"><span class="nav-icon" data-icon="file"></span><span>Updates & Patch Notes</span></a>
+          <a class="nav-link" href="#guides" data-route="guides"><span class="nav-icon" data-icon="compass"></span><span>Guides</span></a>
+          <a class="nav-link" href="#tierlists" data-route="tierlists"><span class="nav-icon" data-icon="chart"></span><span>Tier Lists</span></a>
+        </nav>
+        <div class="side-divider"></div>
+        <div class="side-label" data-i18n="personal">PERSONALE</div>
+        <nav class="side-nav">
+          <a class="nav-link" href="#compare" data-route="compare"><span class="nav-icon" data-icon="compare"></span><span data-i18n="compare">Confronta personaggi</span></a>
+          <a class="nav-link" href="#favorites" data-route="favorites"><span class="nav-icon" data-icon="heart"></span><span data-i18n="favorites">Preferiti</span><b id="favoriteCount">0</b></a>
+          <a class="nav-link" href="#history" data-route="history"><span class="nav-icon" data-icon="clock"></span><span data-i18n="history">Cronologia</span></a>
+        </nav>
+      </div>
+      <div class="sidebar-footer">
+        <div class="archive-status"><span class="status-dot"></span><div><strong>ARCHIVE STATUS</strong><small>Community data · v5.4.2</small></div></div>
+        <div class="sidebar-footer-row"><span>FOGLABS © 2026</span><a href="#sources">FONTI</a></div>
+      </div>
+    </aside>
+
+    <div class="main-column">
+      <header class="topbar">
+        <button class="icon-btn mobile-menu" id="mobileMenu" aria-label="Open menu"><span class="hamburger"></span></button>
+        <div class="breadcrumb"><span>FOGLABS</span><i>/</i><strong id="breadcrumbCurrent">ARCHIVE</strong></div>
+        <div class="topbar-actions">
+          <div class="global-search" id="globalSearchWrap">
+            <span class="search-visual" data-icon="search"></span>
+            <input id="globalSearch" type="search" placeholder="Cerca personaggi, mappe, abilità..." autocomplete="off" aria-label="Ricerca globale">
+            <kbd>⌘ K</kbd>
+            <div class="search-suggestions" id="searchSuggestions" hidden></div>
+          </div>
+          <button class="icon-btn" id="langToggle" aria-label="Change language" title="Italiano / English">IT</button>
+          <button class="icon-btn" id="themeToggle" aria-label="Toggle theme" title="Cambia tema"><span data-icon="sun"></span></button>
+          <button class="avatar-btn" id="adminShortcut" title="Editor locale">FL</button>
+        </div>
+      </header>
+
+      <main id="appMain" tabindex="-1">
+        <div class="loading-screen"><div class="loader-mark">FA</div><span>INITIALIZING ARCHIVE</span></div>
+      </main>
+
+      <footer class="page-footer">
+        <div class="footer-brand"><img class="footer-logo" src="assets/icons/archive-icon.png" alt=""><span><strong>THE FORSAKEN ARCHIVE</strong><small>Independent community reference · FogLabs</small></span></div>
+        <div class="footer-links"><a href="#sources">Sources & attribution</a><a href="https://www.roblox.com/games/18687417158/Forsaken" target="_blank" rel="noopener">Open Roblox experience ↗</a></div>
+        <p>Fan-made reference. Not affiliated with Roblox or the Forsaken developers. Names and marks belong to their respective owners.</p>
+      </footer>
+    </div>
+  </div>
+  <div class="mobile-backdrop" id="mobileBackdrop"></div>
+  <div class="toast-region" id="toastRegion" aria-live="polite"></div>
+  <script src="data/local-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
