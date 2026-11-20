@@ -5,7 +5,8 @@
     "category": "skins",
     "gameVersion": "5.4.2",
     "lastVerified": "2026-11-18",
-    "coverage": "starter-dataset-not-complete"
+    "coverage": "starter-dataset-not-complete",
+    "imageCoverage": "all-items-have-local-original-illustration"
   },
   "items": [
     {
@@ -18,7 +19,10 @@
       "sourceIds": [
         "patchlog"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/skins-targetman-shedletsky.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "technician-builderman",
@@ -30,7 +34,10 @@
       "sourceIds": [
         "patchlog"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/skins-technician-builderman.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "medic-elliot",
@@ -42,7 +49,10 @@
       "sourceIds": [
         "patchlog"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/skins-medic-elliot.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "juggernaut-guest1337",
@@ -54,7 +64,10 @@
       "sourceIds": [
         "patchlog"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/skins-juggernaut-guest1337.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "monitoring-two-time",
@@ -66,7 +79,10 @@
       "sourceIds": [
         "patchlog"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/skins-monitoring-two-time.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "helperbot-2-0",
@@ -78,7 +94,10 @@
       "sourceIds": [
         "newbeginnings"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/skins-helperbot-2-0.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "helperbot-angry-robot",
@@ -90,7 +109,10 @@
       "sourceIds": [
         "newbeginnings"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/skins-helperbot-angry-robot.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "veero-arcade",
@@ -102,7 +124,10 @@
       "sourceIds": [
         "newbeginnings"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/skins-veero-arcade.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     }
   ]
 }

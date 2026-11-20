@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-label="Builderman — illustrazione originale FogLabs, non ufficiale">
+      <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b0912"/><stop offset=".52" stop-color="#53317d" stop-opacity=".75"/><stop offset="1" stop-color="#0b0810"/></linearGradient>
+        <radialGradient id="glow"><stop stop-color="#8c2e4e" stop-opacity=".42"/><stop offset="1" stop-color="#8c2e4e" stop-opacity="0"/></radialGradient>
+        <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur stdDeviation="8"/></filter>
+      </defs>
+      <rect width="720" height="420" fill="url(#bg)"/><ellipse cx="360" cy="205" rx="340" ry="260" fill="url(#glow)"/>
+      <circle cx="576" cy="70" r="1" fill="#fff" opacity="0.36"/><circle cx="172" cy="27" r="1.5" fill="#fff" opacity="0.21"/><circle cx="572" cy="202" r="2" fill="#fff" opacity="0.23"/><circle cx="231" cy="165" r="1.5" fill="#fff" opacity="0.18"/><circle cx="33" cy="206" r="1" fill="#fff" opacity="0.55"/><circle cx="554" cy="206" r="1" fill="#fff" opacity="0.50"/><circle cx="229" cy="131" r="2" fill="#fff" opacity="0.37"/><circle cx="90" cy="185" r="2" fill="#fff" opacity="0.48"/><circle cx="291" cy="144" r="1" fill="#fff" opacity="0.49"/><circle cx="56" cy="50" r="1" fill="#fff" opacity="0.55"/><circle cx="342" cy="208" r="1" fill="#fff" opacity="0.30"/><circle cx="140" cy="154" r="1.5" fill="#fff" opacity="0.55"/><circle cx="227" cy="94" r="2" fill="#fff" opacity="0.32"/><circle cx="629" cy="72" r="1.5" fill="#fff" opacity="0.50"/><circle cx="554" cy="48" r="1" fill="#fff" opacity="0.39"/><circle cx="240" cy="115" r="1" fill="#fff" opacity="0.42"/><circle cx="149" cy="65" r="2" fill="#fff" opacity="0.63"/><circle cx="625" cy="38" r="1" fill="#fff" opacity="0.29"/><circle cx="170" cy="53" r="1.5" fill="#fff" opacity="0.50"/><circle cx="209" cy="205" r="2" fill="#fff" opacity="0.23"/><circle cx="667" cy="133" r="1.5" fill="#fff" opacity="0.32"/><circle cx="235" cy="175" r="1" fill="#fff" opacity="0.63"/><circle cx="287" cy="55" r="1.5" fill="#fff" opacity="0.43"/><circle cx="687" cy="159" r="1" fill="#fff" opacity="0.63"/><circle cx="691" cy="43" r="1" fill="#fff" opacity="0.30"/><circle cx="500" cy="128" r="2" fill="#fff" opacity="0.26"/><circle cx="496" cy="30" r="2" fill="#fff" opacity="0.59"/><circle cx="227" cy="122" r="1" fill="#fff" opacity="0.37"/><circle cx="339" cy="188" r="1" fill="#fff" opacity="0.33"/><circle cx="374" cy="50" r="2" fill="#fff" opacity="0.55"/><circle cx="356" cy="25" r="1" fill="#fff" opacity="0.62"/><circle cx="599" cy="167" r="1" fill="#fff" opacity="0.21"/><circle cx="62" cy="219" r="2" fill="#fff" opacity="0.29"/><circle cx="341" cy="152" r="1" fill="#fff" opacity="0.25"/><circle cx="96" cy="211" r="1" fill="#fff" opacity="0.63"/><circle cx="650" cy="189" r="1" fill="#fff" opacity="0.35"/><circle cx="170" cy="132" r="1.5" fill="#fff" opacity="0.36"/><circle cx="528" cy="209" r="1.5" fill="#fff" opacity="0.27"/><circle cx="95" cy="34" r="1.5" fill="#fff" opacity="0.58"/><circle cx="113" cy="138" r="2" fill="#fff" opacity="0.33"/><circle cx="217" cy="100" r="1" fill="#fff" opacity="0.50"/><circle cx="565" cy="183" r="1.5" fill="#fff" opacity="0.18"/>
+      <path d="M0 0 H720 V22 Q540 42 360 22 T0 22Z" fill="#8c2e4e" opacity=".38"/>
+      <circle cx="360" cy="142" r="126" fill="#53317d" opacity=".12"/><path d="M120 330 Q360 280 600 330" stroke="#53317d" stroke-width="2" opacity=".28" fill="none"/>
+        <ellipse cx="360" cy="394" rx="112" ry="13" fill="#05050a" opacity=".55" filter="url(#shadow)"/>
+        <g transform="translate(0,8)">
+          <path d="M277 308 Q292 267 320 254 L345 236 L375 236 L400 254 Q428 267 443 308Z" fill="#090910" stroke="#53317d" stroke-opacity=".56" stroke-width="4"/>
+          <rect x="322" y="125" width="76" height="87" rx="8" fill="#11111a" stroke="#53317d" stroke-width="4"/>
+          <path d="M322 150 H398" stroke="#fff" opacity=".15" stroke-width="4"/>
+          <rect x="297" y="218" width="126" height="103" rx="10" fill="#11111a" stroke="#53317d" stroke-width="4"/>
+          <path d="M298 245 L266 291 L280 302 L322 268 M422 245 L454 291 L440 302 L398 268" fill="#101018" stroke="#53317d" stroke-width="4"/>
+          <path d="M338 321 L332 385 H357 L366 328 M383 321 L389 385 H414 L405 328" fill="#0b0a12" stroke="#53317d" stroke-width="4"/>
+          <path d="M344 164 h8 M367 164 h8" stroke="#f4eff7" stroke-width="5" stroke-linecap="round"/>
+          <path d="M344 184 Q360 194 376 184" fill="none" stroke="#53317d" stroke-width="3"/>
+        </g>
+      <rect y="358" width="720" height="62" fill="#07070d" opacity=".88"/>
+      <path d="M0 358 H720" stroke="#8c2e4e" stroke-width="2" opacity=".85"/>
+      <text x="25" y="385" fill="#f7f2f8" font-size="21" font-family="Arial,sans-serif" font-weight="700" letter-spacing="1">Builderman</text>
+      <text x="25" y="405" fill="#c6b7cf" font-size="9" font-family="Arial,sans-serif" letter-spacing="1.6">FOGLABS ARCHIVE ART · NON-OFFICIAL ILLUSTRATION</text>
+      <text x="688" y="405" fill="#8c2e4e" font-size="9" font-family="Arial,sans-serif" text-anchor="end">FL / CHARACTER</text>
+    </svg>

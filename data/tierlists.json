@@ -5,26 +5,36 @@
     "category": "tierlists",
     "gameVersion": "5.4.2",
     "lastVerified": "2026-11-18",
-    "coverage": "starter-dataset"
+    "coverage": "starter-dataset",
+    "imageCoverage": "all-items-have-local-original-illustration"
   },
   "items": [
     {
       "id": "tierlist-status",
       "title": "Classifica editoriale",
       "status": "not-ranked",
-      "summary": "Non è stata pubblicata una graduatoria S–D in questa build: le classifiche community hanno criteri e date differenti. Usa il confronto statistico per leggere i dati disponibili senza attribuire un ranking oggettivo."
+      "summary": "Non è stata pubblicata una graduatoria S–D in questa build: le classifiche community hanno criteri e date differenti. Usa il confronto statistico per leggere i dati disponibili senza attribuire un ranking oggettivo.",
+      "image": "assets/images/archive/tierlists-tierlist-status.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "survivor-roles",
       "title": "Confronto per ruolo Survivor",
       "status": "criteria-based",
-      "summary": "Confronta Survivalist, Sentinel e Support per funzione di squadra. Il ruolo descrive l’impostazione del kit, non una misura assoluta della forza."
+      "summary": "Confronta Survivalist, Sentinel e Support per funzione di squadra. Il ruolo descrive l’impostazione del kit, non una misura assoluta della forza.",
+      "image": "assets/images/archive/tierlists-survivor-roles.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "killer-playstyles",
       "title": "Confronto per stile Killer",
       "status": "criteria-based",
-      "summary": "Zoner, Rushdown, Trapper, Ambush e Deception sono etichette di stile riportate dalle guide community; la resa cambia con la mappa e la patch."
+      "summary": "Zoner, Rushdown, Trapper, Ambush e Deception sono etichette di stile riportate dalle guide community; la resa cambia con la mappa e la patch.",
+      "image": "assets/images/archive/tierlists-killer-playstyles.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     }
   ]
 }

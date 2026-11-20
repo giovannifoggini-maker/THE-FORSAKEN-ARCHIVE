@@ -5,7 +5,8 @@
     "category": "guides",
     "gameVersion": "5.4.2",
     "lastVerified": "2026-11-18",
-    "coverage": "starter-dataset"
+    "coverage": "starter-dataset",
+    "imageCoverage": "all-items-have-local-original-illustration"
   },
   "items": [
     {
@@ -22,7 +23,10 @@
         "rblxguide",
         "rowikis"
       ],
-      "status": "community-guide"
+      "status": "community-guide",
+      "image": "assets/images/archive/guides-round-basics.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "generators",
@@ -38,7 +42,10 @@
         "maps",
         "newbeginnings"
       ],
-      "status": "community-guide"
+      "status": "community-guide",
+      "image": "assets/images/archive/guides-generators.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "stamina",
@@ -55,7 +62,10 @@
         "killers_stats",
         "patchlog"
       ],
-      "status": "partial"
+      "status": "partial",
+      "image": "assets/images/archive/guides-stamina.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "map-horror-hotel",
@@ -70,7 +80,10 @@
       "sourceIds": [
         "maps"
       ],
-      "status": "community-guide"
+      "status": "community-guide",
+      "image": "assets/images/archive/guides-map-horror-hotel.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "007n7-kit",
@@ -85,7 +98,10 @@
       "sourceIds": [
         "007n7"
       ],
-      "status": "community-guide"
+      "status": "community-guide",
+      "image": "assets/images/archive/guides-007n7-kit.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     }
   ]
 }

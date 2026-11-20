@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-label="Technician — illustrazione originale FogLabs, non ufficiale">
+      <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b0912"/><stop offset=".52" stop-color="#733f83" stop-opacity=".75"/><stop offset="1" stop-color="#0b0810"/></linearGradient>
+        <radialGradient id="glow"><stop stop-color="#4d8cb0" stop-opacity=".42"/><stop offset="1" stop-color="#4d8cb0" stop-opacity="0"/></radialGradient>
+        <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur stdDeviation="8"/></filter>
+      </defs>
+      <rect width="720" height="420" fill="url(#bg)"/><ellipse cx="360" cy="205" rx="340" ry="260" fill="url(#glow)"/>
+      <circle cx="524" cy="139" r="1.5" fill="#fff" opacity="0.29"/><circle cx="536" cy="96" r="1.5" fill="#fff" opacity="0.32"/><circle cx="155" cy="169" r="1.5" fill="#fff" opacity="0.44"/><circle cx="633" cy="162" r="1" fill="#fff" opacity="0.54"/><circle cx="542" cy="212" r="1.5" fill="#fff" opacity="0.60"/><circle cx="376" cy="177" r="1.5" fill="#fff" opacity="0.48"/><circle cx="364" cy="125" r="1.5" fill="#fff" opacity="0.31"/><circle cx="443" cy="109" r="1.5" fill="#fff" opacity="0.52"/><circle cx="51" cy="47" r="1.5" fill="#fff" opacity="0.42"/><circle cx="604" cy="93" r="1" fill="#fff" opacity="0.26"/><circle cx="335" cy="145" r="1.5" fill="#fff" opacity="0.56"/><circle cx="676" cy="61" r="2" fill="#fff" opacity="0.51"/><circle cx="246" cy="36" r="1" fill="#fff" opacity="0.55"/><circle cx="694" cy="40" r="1" fill="#fff" opacity="0.51"/><circle cx="205" cy="178" r="1" fill="#fff" opacity="0.40"/><circle cx="454" cy="198" r="2" fill="#fff" opacity="0.59"/><circle cx="133" cy="184" r="2" fill="#fff" opacity="0.39"/><circle cx="431" cy="108" r="1.5" fill="#fff" opacity="0.63"/><circle cx="530" cy="209" r="1" fill="#fff" opacity="0.47"/><circle cx="161" cy="197" r="2" fill="#fff" opacity="0.49"/><circle cx="242" cy="28" r="1.5" fill="#fff" opacity="0.58"/><circle cx="573" cy="133" r="2" fill="#fff" opacity="0.19"/><circle cx="371" cy="24" r="2" fill="#fff" opacity="0.37"/><circle cx="134" cy="132" r="1.5" fill="#fff" opacity="0.38"/><circle cx="476" cy="155" r="1.5" fill="#fff" opacity="0.21"/><circle cx="599" cy="69" r="1" fill="#fff" opacity="0.59"/><circle cx="543" cy="94" r="2" fill="#fff" opacity="0.63"/><circle cx="458" cy="23" r="1.5" fill="#fff" opacity="0.46"/><circle cx="379" cy="147" r="1" fill="#fff" opacity="0.46"/><circle cx="445" cy="98" r="2" fill="#fff" opacity="0.42"/><circle cx="151" cy="21" r="2" fill="#fff" opacity="0.51"/><circle cx="200" cy="204" r="1.5" fill="#fff" opacity="0.38"/><circle cx="34" cy="161" r="1" fill="#fff" opacity="0.48"/><circle cx="182" cy="32" r="1" fill="#fff" opacity="0.49"/><circle cx="206" cy="200" r="1" fill="#fff" opacity="0.49"/><circle cx="535" cy="73" r="1.5" fill="#fff" opacity="0.64"/><circle cx="294" cy="187" r="1" fill="#fff" opacity="0.25"/><circle cx="110" cy="34" r="2" fill="#fff" opacity="0.21"/><circle cx="473" cy="101" r="1" fill="#fff" opacity="0.19"/><circle cx="398" cy="209" r="1" fill="#fff" opacity="0.34"/><circle cx="647" cy="203" r="2" fill="#fff" opacity="0.63"/><circle cx="85" cy="152" r="1" fill="#fff" opacity="0.41"/>
+      <path d="M0 0 H720 V22 Q540 42 360 22 T0 22Z" fill="#4d8cb0" opacity=".38"/>
+      <circle cx="360" cy="142" r="126" fill="#733f83" opacity=".12"/><path d="M120 330 Q360 280 600 330" stroke="#733f83" stroke-width="2" opacity=".28" fill="none"/>
+        <ellipse cx="360" cy="394" rx="112" ry="13" fill="#05050a" opacity=".55" filter="url(#shadow)"/>
+        <g transform="translate(0,8)">
+          <path d="M277 308 Q292 267 320 254 L345 236 L375 236 L400 254 Q428 267 443 308Z" fill="#090910" stroke="#733f83" stroke-opacity=".56" stroke-width="4"/>
+          <rect x="322" y="125" width="76" height="87" rx="8" fill="#11111a" stroke="#733f83" stroke-width="4"/>
+          <path d="M322 150 H398" stroke="#fff" opacity=".15" stroke-width="4"/>
+          <rect x="297" y="218" width="126" height="103" rx="10" fill="#11111a" stroke="#733f83" stroke-width="4"/>
+          <path d="M298 245 L266 291 L280 302 L322 268 M422 245 L454 291 L440 302 L398 268" fill="#101018" stroke="#733f83" stroke-width="4"/>
+          <path d="M338 321 L332 385 H357 L366 328 M383 321 L389 385 H414 L405 328" fill="#0b0a12" stroke="#733f83" stroke-width="4"/>
+          <path d="M344 164 h8 M367 164 h8" stroke="#f4eff7" stroke-width="5" stroke-linecap="round"/>
+          <path d="M344 184 Q360 194 376 184" fill="none" stroke="#733f83" stroke-width="3"/>
+        </g><path d="M292 226 L360 250 L428 226 L414 302 L306 302Z" fill="#733f83" opacity=".35"/><path d="M322 130 L360 108 L398 130" stroke="#733f83" stroke-width="8" fill="none"/>
+      <rect y="358" width="720" height="62" fill="#07070d" opacity=".88"/>
+      <path d="M0 358 H720" stroke="#4d8cb0" stroke-width="2" opacity=".85"/>
+      <text x="25" y="385" fill="#f7f2f8" font-size="21" font-family="Arial,sans-serif" font-weight="700" letter-spacing="1">Technician</text>
+      <text x="25" y="405" fill="#c6b7cf" font-size="9" font-family="Arial,sans-serif" letter-spacing="1.6">FOGLABS ARCHIVE ART · NON-OFFICIAL ILLUSTRATION</text>
+      <text x="688" y="405" fill="#4d8cb0" font-size="9" font-family="Arial,sans-serif" text-anchor="end">FL / SKINS</text>
+    </svg>

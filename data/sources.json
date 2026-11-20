@@ -84,6 +84,20 @@
       "url": "https://rowikis.com/forsaken/killers/1x1x1x1/",
       "kind": "community character page",
       "licenseNote": "Link alla fonte; immagini non incluse nel pacchetto."
+    },
+    {
+      "id": "fw_about",
+      "title": "Forsaken Wiki — About & license note",
+      "url": "https://forsakenwiki.com/about/",
+      "kind": "Licenza / policy editoriale",
+      "licenseNote": "La pagina About descrive la wiki come fan-made e dichiara il contenuto adattato sotto CC BY-SA 4.0; nomi, marchi e asset del gioco restano ai rispettivi titolari. La licenza del singolo asset va verificata prima di riutilizzare immagini originali."
+    },
+    {
+      "id": "forsakenhub_maps_2026",
+      "title": "ForsakenHub — Map reference (10 novembre 2026)",
+      "url": "https://www.forsakenhub.com/forsaken-maps",
+      "kind": "Riferimento community / mappe",
+      "licenseNote": "Riferimento community aggiornato il 10 novembre 2026 per il roster mappe; l'archivio non copia le sue data-card o screenshot."
     }
   ]
 }

@@ -5,7 +5,8 @@
     "category": "badges",
     "gameVersion": "5.4.2",
     "lastVerified": "2026-11-18",
-    "coverage": "starter-dataset"
+    "coverage": "starter-dataset",
+    "imageCoverage": "all-items-have-local-original-illustration"
   },
   "items": [
     {
@@ -16,7 +17,10 @@
       "status": "confirmed-update",
       "sourceIds": [
         "patchlog"
-      ]
+      ],
+      "image": "assets/images/archive/badges-glimpse-into-doom.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "tricked-ya",
@@ -26,7 +30,10 @@
       "status": "community-confirmed",
       "sourceIds": [
         "007n7"
-      ]
+      ],
+      "image": "assets/images/archive/badges-tricked-ya.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "alt-tab",
@@ -36,7 +43,10 @@
       "status": "community-confirmed",
       "sourceIds": [
         "007n7"
-      ]
+      ],
+      "image": "assets/images/archive/badges-alt-tab.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "severe-and-continuous",
@@ -46,7 +56,10 @@
       "status": "community-confirmed",
       "sourceIds": [
         "007n7"
-      ]
+      ],
+      "image": "assets/images/archive/badges-severe-and-continuous.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     }
   ]
 }

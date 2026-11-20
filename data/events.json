@@ -5,7 +5,8 @@
     "category": "events",
     "gameVersion": "5.4.2",
     "lastVerified": "2026-11-18",
-    "coverage": "starter-dataset"
+    "coverage": "starter-dataset",
+    "imageCoverage": "all-items-have-local-original-illustration"
   },
   "items": [
     {
@@ -16,7 +17,10 @@
       "status": "past-or-current-check",
       "sourceIds": [
         "patchlog"
-      ]
+      ],
+      "image": "assets/images/archive/events-forsakenween-2026.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "summer-games-2026",
@@ -26,7 +30,10 @@
       "status": "partial",
       "sourceIds": [
         "fw"
-      ]
+      ],
+      "image": "assets/images/archive/events-summer-games-2026.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "new-beginnings",
@@ -36,7 +43,10 @@
       "status": "confirmed-update",
       "sourceIds": [
         "newbeginnings"
-      ]
+      ],
+      "image": "assets/images/archive/events-new-beginnings.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     }
   ]
 }

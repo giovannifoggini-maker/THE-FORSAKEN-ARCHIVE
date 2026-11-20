@@ -45,6 +45,17 @@ Sulla versione pubblicata, `app.js` legge i file JSON in `data/`; se un JSON non
 
 La palette scura è stata alleggerita con superfici graphite più chiare, bordi più leggibili e un hero con overlay meno intenso; il tema chiaro resta disponibile dal selettore in alto. Il progetto mantiene l’atmosfera horror attraverso gli accenti rossi e viola, senza usare un contrasto eccessivamente cupo.
 
+## Catalogo immagini locale (20 novembre 2026)
+
+Ogni record nei dataset enciclopedici include una propria illustrazione SVG locale coordinata con la categoria. Le card, i dettagli, la home, i preferiti e il comparatore usano questi file. Per rigenerarli dopo aver aggiunto o cambiato record, esegui:
+
+```bash
+python tools/generate-archive-art.py
+python tools/generate-local-bundle.py
+```
+
+Le grafiche sono chiaramente contrassegnate come **ARCHIVE ART · NON UFFICIALE**; sono un supporto visivo del progetto e non devono essere interpretate come screenshot del gioco.
+
 ## Funzionalità incluse
 
 - Navigazione SPA tramite hash route, senza ricaricare la pagina.
@@ -54,7 +65,7 @@ La palette scura è stata alleggerita con superfici graphite più chiare, bordi 
 - Preferiti e cronologia tramite LocalStorage.
 - Confronto tra qualsiasi coppia di personaggi (Survivor o Killer); i valori assenti sono indicati come non disponibili.
 - Tema scuro/chiaro e interfaccia italiana/inglese.
-- Schede personaggio e schede dettagli per le voci del database.
+- Schede personaggio e schede dettagli per le voci del database, con una grafica locale dedicata a ogni record.
 - Collegamenti interni tra personaggi, abilità e categorie.
 - Layout responsive con menu mobile.
 - Pagina 404 interna.
@@ -89,7 +100,8 @@ the-forsaken-archive/
 ├── assets/
 │   ├── images/
 │   │   ├── character-placeholder.svg
-│   │   └── hero-texture.svg
+│   │   ├── hero-texture.svg
+│   │   └── archive/                  # 195 illustrazioni SVG locali, una per record
 │   ├── icons/
 │   │   └── archive-icon.png
 │   ├── favicon.ico
@@ -99,6 +111,7 @@ the-forsaken-archive/
 │   ├── apple-touch-icon.png
 │   └── site.webmanifest
 └── tools/
+    ├── generate-archive-art.py        # Rigenera i 195 visual originali FogLabs
     └── generate-local-bundle.py
 ```
 
@@ -117,9 +130,12 @@ Stati consigliati:
 
 - Il gioco e i relativi marchi appartengono ai rispettivi titolari; questa wiki è fan-made e non è affiliata agli sviluppatori o a Roblox.
 - I dati sono sintesi originali e collegamenti a fonti community. Le schede non riproducono intere pagine di altre wiki.
-- Le due immagini personaggio attualmente collegate sono caricate dal percorso pubblico della wiki community rowikis e vengono mostrate con fallback locale se non raggiungibili. Non sono incluse come file binari nel progetto. Per ampliare il catalogo immagini, usare soltanto render con provenienza e diritti verificati, includendo l'attribuzione nel record.
-- La pagina About di `forsakenwiki.com` dichiara che i contenuti adattati dalla wiki originale sono disponibili sotto CC BY-SA 4.0; verificare la licenza della singola immagine prima di redistribuirla.
-- L'archivio attuale è stato predisposto con fonti controllate il **18 novembre 2026**. Il dato patch più recente trovato durante la ricerca è **5.4.2**; la copertura dei singoli campi non è uniforme.
+- **Tutte le 195 voci attualmente presenti nei 14 dataset hanno ora un asset visivo locale** in `assets/images/archive/`. Sono illustrazioni vettoriali originali FogLabs create appositamente per questa interfaccia (avatar stilizzati, ambientazioni astratte e simboli di categoria): non sono render, screenshot o artwork ufficiali di Forsaken.
+- Le illustrazioni locali non richiedono chiamate esterne e funzionano anche aprendo `index.html` offline. I record contengono `image`, `imageCredit` e `imageType` per indicare il tipo e la provenienza del visual.
+- Ho rimosso gli hotlink a immagini Rowikis dalla homepage e dai dati personaggio. Le immagini ufficiali/community potranno sostituire le illustrazioni solo quando la licenza o l'autorizzazione del singolo file è verificabile e l'attribuzione può essere conservata.
+- La pagina About di `forsakenwiki.com` dichiara il contenuto adattato sotto CC BY-SA 4.0, ma precisa che marchi e asset del gioco appartengono ai rispettivi titolari. Questo non è assunto come autorizzazione automatica a redistribuire ogni render o screenshot: la licenza del singolo asset va controllata. Riferimento: `https://forsakenwiki.com/about/`.
+- Per l'indice mappe è stato aggiunto un riferimento community aggiornato il 10 novembre 2026. Non sono state copiate le sue data-card o immagini.
+- L'archivio attuale conserva la copertura testuale iniziale e **non viene dichiarato completo**. Le illustrazioni sono complete per i record presenti, non per ogni elemento del gioco. I valori possono restare parziali o da verificare.
 
 ## Controlli effettuati
 
@@ -130,7 +146,9 @@ Verifica di manutenzione eseguita con Chromium sulla build HTML/CSS/JavaScript e
 - Tutte le 21 schede personaggio sono state controllate, inclusi i link di ritorno alla categoria.
 - Verificati collegamenti diretti alle abilità, confronto avviato da una scheda, selezione di due personaggi distinti, ricerca e suggerimenti, filtri, preferiti, cronologia, editor JSON, fonti e pagina 404.
 - Controllati i percorsi mobile principali a 375 px: nessun overflow orizzontale e menu laterale funzionante.
-- Nessun errore JavaScript rilevato nei test desktop e mobile.
+- Nessun errore JavaScript rilevato nei test desktop e mobile nella manutenzione precedente.
+- Per la revisione visuale del 20 novembre: tutti i 195 asset SVG caricati correttamente in Chromium nelle 14 sezioni; 0 immagini mancanti o rotte.
+- Test interattivi finali: 15/15 superati (preferiti, cronologia, confronto, cambio lingua e tema, editor/validazione JSON, 404, menu e overflow mobile), senza errori JavaScript.
 
 ### Correzioni di manutenzione (18 novembre 2026)
 
@@ -145,7 +163,7 @@ Verifica di manutenzione eseguita con Chromium sulla build HTML/CSS/JavaScript e
 - Risolto un SVG di ricerca sovradimensionato nelle barre filtro: l’icona ora è vincolata a 16×16 px, evitando la macchia circolare nera visibile in tutte le pagine di categoria.
 - Reso più evidente e coerente il placeholder locale dei personaggi non disponibili, con silhouette geometrica e senza testa circolare nera.
 
-Il test grafico usa il bundle locale e placeholder ripetibili; le immagini remote possono non essere raggiungibili in anteprima e vengono sostituite dal placeholder SVG. Nel sito pubblicato il browser prova a caricare gli URL immagine indicati dai record.
+La verifica grafica offline incorpora temporaneamente il bundle locale e gli SVG per simulare il browser senza rete. Nel progetto pubblicabile, tutti i visual del catalogo risiedono nella cartella `assets/images/archive/` e non richiedono immagini remote.
 
 
 ## Identità visiva FogLabs (18 novembre 2026)
@@ -154,3 +172,14 @@ Il test grafico usa il bundle locale e placeholder ripetibili; le immagini remot
 - Aggiunte favicon ICO multi-risoluzione, PNG 16/32/64 px, icona 512 px e Apple Touch Icon 180 px.
 - Aggiunto `site.webmanifest` per supportare le icone del sito su browser e dispositivi compatibili.
 - L'immagine sorgente è stata ottimizzata e ridimensionata per il web; non vengono caricati asset remoti.
+
+
+### Catalogo visuale locale (20 novembre 2026)
+
+- Generati 195 SVG originali FogLabs: 21 personaggi, 19 mappe, 90 abilità, 8 skin, 5 item, 12 effetti, 14 emote, 4 voci lore, 4 badge, 3 eventi, 7 aggiornamenti, 5 guide e 3 tier list.
+- Ogni card di categoria e ogni scheda di dettaglio mostra il relativo visual locale; il comparatore mostra anche le due illustrazioni selezionate.
+- Il selettore lingua aggiorna sia le etichette sia l'attributo `lang` del documento per accessibilità e strumenti di lettura.
+- Preferiti, cronologia e homepage riutilizzano gli stessi asset locali.
+- Rimossi i due vecchi hotlink immagine a Rowikis; nessuna API immagini esterna è necessaria.
+- Aggiunto `tools/generate-archive-art.py` per rigenerare i visual quando si aggiornano i record JSON.
+- Aggiunta al registro fonti la pagina About di Forsaken Wiki e il riferimento mappe ForsakenHub.

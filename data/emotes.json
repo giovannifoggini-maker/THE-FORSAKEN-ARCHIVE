@@ -5,7 +5,8 @@
     "category": "emotes",
     "gameVersion": "5.4.2",
     "lastVerified": "2026-11-18",
-    "coverage": "starter-dataset-not-complete"
+    "coverage": "starter-dataset-not-complete",
+    "imageCoverage": "all-items-have-local-original-illustration"
   },
   "items": [
     {
@@ -19,7 +20,10 @@
         "patchlog",
         "newbeginnings"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/emotes-bad.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "raaaah",
@@ -32,7 +36,10 @@
         "patchlog",
         "newbeginnings"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/emotes-raaaah.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "yaai",
@@ -45,7 +52,10 @@
         "patchlog",
         "newbeginnings"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/emotes-yaai.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "floating-meditation",
@@ -58,7 +68,10 @@
         "patchlog",
         "newbeginnings"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/emotes-floating-meditation.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "low-cortisol",
@@ -71,7 +84,10 @@
         "patchlog",
         "newbeginnings"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/emotes-low-cortisol.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "thriller",
@@ -84,7 +100,10 @@
         "patchlog",
         "newbeginnings"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/emotes-thriller.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "broom-ride",
@@ -97,7 +116,10 @@
         "patchlog",
         "newbeginnings"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/emotes-broom-ride.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "pumpkin-groove",
@@ -110,7 +132,10 @@
         "patchlog",
         "newbeginnings"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/emotes-pumpkin-groove.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "spooky",
@@ -123,7 +148,10 @@
         "patchlog",
         "newbeginnings"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/emotes-spooky.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "plumberjig",
@@ -136,7 +164,10 @@
         "patchlog",
         "newbeginnings"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/emotes-plumberjig.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "dancing",
@@ -149,7 +180,10 @@
         "patchlog",
         "newbeginnings"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/emotes-dancing.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "da-thang",
@@ -162,7 +196,10 @@
         "patchlog",
         "newbeginnings"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/emotes-da-thang.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "parrot-party",
@@ -175,7 +212,10 @@
         "patchlog",
         "newbeginnings"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/emotes-parrot-party.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "he-seems-chill",
@@ -188,7 +228,10 @@
         "patchlog",
         "newbeginnings"
       ],
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/emotes-he-seems-chill.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     }
   ]
 }

@@ -5,7 +5,8 @@
     "category": "effects",
     "gameVersion": "5.4.2",
     "lastVerified": "2026-11-18",
-    "coverage": "starter-dataset-not-complete"
+    "coverage": "starter-dataset-not-complete",
+    "imageCoverage": "all-items-have-local-original-illustration"
   },
   "items": [
     {
@@ -22,7 +23,10 @@
         "1x1x1x1"
       ],
       "status": "partial",
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/effects-slowness.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "glitched",
@@ -38,7 +42,10 @@
         "1x1x1x1"
       ],
       "status": "partial",
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/effects-glitched.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "poisoned",
@@ -54,7 +61,10 @@
         "1x1x1x1"
       ],
       "status": "partial",
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/effects-poisoned.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "helpless",
@@ -70,7 +80,10 @@
         "1x1x1x1"
       ],
       "status": "partial",
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/effects-helpless.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "blindness",
@@ -86,7 +99,10 @@
         "1x1x1x1"
       ],
       "status": "partial",
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/effects-blindness.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "undetectable",
@@ -102,7 +118,10 @@
         "1x1x1x1"
       ],
       "status": "partial",
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/effects-undetectable.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "invisibility",
@@ -118,7 +137,10 @@
         "1x1x1x1"
       ],
       "status": "partial",
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/effects-invisibility.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "haste",
@@ -134,7 +156,10 @@
         "1x1x1x1"
       ],
       "status": "partial",
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/effects-haste.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "corrupted",
@@ -150,7 +175,10 @@
         "1x1x1x1"
       ],
       "status": "partial",
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/effects-corrupted.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "burning",
@@ -166,7 +194,10 @@
         "1x1x1x1"
       ],
       "status": "partial",
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/effects-burning.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "vulnerable",
@@ -182,7 +213,10 @@
         "1x1x1x1"
       ],
       "status": "partial",
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/effects-vulnerable.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "bleeding",
@@ -198,7 +232,10 @@
         "1x1x1x1"
       ],
       "status": "partial",
-      "lastVerified": "2026-11-18"
+      "lastVerified": "2026-11-18",
+      "image": "assets/images/archive/effects-bleeding.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     }
   ]
 }

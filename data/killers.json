@@ -5,7 +5,8 @@
     "category": "killers",
     "gameVersion": "5.4.2",
     "lastVerified": "2026-11-18",
-    "coverage": "starter-dataset"
+    "coverage": "starter-dataset",
+    "imageCoverage": "all-items-have-local-original-illustration"
   },
   "items": [
     {
@@ -38,8 +39,8 @@
       "milestones": [],
       "lore": null,
       "curiosities": [],
-      "image": "https://rowikis.com/forsaken/img/characters/1x1x1x1.webp",
-      "imageCredit": "rowikis",
+      "image": "assets/images/archive/characters-1x1x1x1.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
       "status": "flagged",
       "tags": [
         "killer",
@@ -52,7 +53,8 @@
       ],
       "lastVerified": "2026-11-18",
       "gameVersion": null,
-      "sourceDataAsOf": "2026-08-28 (stat snapshot; anomaly flagged)"
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; anomaly flagged)",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "azure",
@@ -87,8 +89,8 @@
       "milestones": [],
       "lore": null,
       "curiosities": [],
-      "image": null,
-      "imageCredit": null,
+      "image": "assets/images/archive/characters-azure.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
       "status": "partial",
       "tags": [
         "killer",
@@ -101,7 +103,8 @@
       ],
       "lastVerified": "2026-11-18",
       "gameVersion": null,
-      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "c00lkidd",
@@ -132,8 +135,8 @@
       "milestones": [],
       "lore": null,
       "curiosities": [],
-      "image": null,
-      "imageCredit": null,
+      "image": "assets/images/archive/characters-c00lkidd.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
       "status": "verified-community",
       "tags": [
         "killer",
@@ -146,7 +149,8 @@
       ],
       "lastVerified": "2026-11-18",
       "gameVersion": null,
-      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "guest-666",
@@ -181,8 +185,8 @@
       "milestones": [],
       "lore": null,
       "curiosities": [],
-      "image": null,
-      "imageCredit": null,
+      "image": "assets/images/archive/characters-guest-666.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
       "status": "partial",
       "tags": [
         "killer",
@@ -195,7 +199,8 @@
       ],
       "lastVerified": "2026-11-18",
       "gameVersion": null,
-      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "john-doe",
@@ -230,8 +235,8 @@
       "milestones": [],
       "lore": null,
       "curiosities": [],
-      "image": null,
-      "imageCredit": null,
+      "image": "assets/images/archive/characters-john-doe.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
       "status": "partial",
       "tags": [
         "killer",
@@ -244,7 +249,8 @@
       ],
       "lastVerified": "2026-11-18",
       "gameVersion": null,
-      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "noli",
@@ -279,8 +285,8 @@
       "milestones": [],
       "lore": null,
       "curiosities": [],
-      "image": null,
-      "imageCredit": null,
+      "image": "assets/images/archive/characters-noli.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
       "status": "verified-community",
       "tags": [
         "killer",
@@ -293,7 +299,8 @@
       ],
       "lastVerified": "2026-11-18",
       "gameVersion": null,
-      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "nosferatu",
@@ -327,8 +334,8 @@
       "milestones": [],
       "lore": null,
       "curiosities": [],
-      "image": null,
-      "imageCredit": null,
+      "image": "assets/images/archive/characters-nosferatu.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
       "status": "verified-community",
       "tags": [
         "killer",
@@ -341,7 +348,8 @@
       ],
       "lastVerified": "2026-11-18",
       "gameVersion": null,
-      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "slasher",
@@ -372,8 +380,8 @@
       "milestones": [],
       "lore": null,
       "curiosities": [],
-      "image": null,
-      "imageCredit": null,
+      "image": "assets/images/archive/characters-slasher.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
       "status": "verified-community",
       "tags": [
         "killer",
@@ -386,7 +394,8 @@
       ],
       "lastVerified": "2026-11-18",
       "gameVersion": null,
-      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)"
+      "sourceDataAsOf": "2026-08-28 (stat snapshot; roster/prices cross-checked 2026-10-24)",
+      "imageType": "original-archive-illustration"
     }
   ]
 }

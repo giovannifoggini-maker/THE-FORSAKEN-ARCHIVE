@@ -5,7 +5,8 @@
     "category": "lore",
     "gameVersion": "5.4.2",
     "lastVerified": "2026-11-18",
-    "coverage": "starter-dataset"
+    "coverage": "starter-dataset",
+    "imageCoverage": "all-items-have-local-original-illustration"
   },
   "items": [
     {
@@ -17,7 +18,10 @@
       "sourceIds": [
         "fw",
         "roblox"
-      ]
+      ],
+      "image": "assets/images/archive/lore-forsaken-premise.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "007n7-backstory",
@@ -27,7 +31,10 @@
       "status": "community-lore",
       "sourceIds": [
         "007n7"
-      ]
+      ],
+      "image": "assets/images/archive/lore-007n7-backstory.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "1x1x1x1-origin",
@@ -37,7 +44,10 @@
       "status": "community-lore",
       "sourceIds": [
         "1x1x1x1"
-      ]
+      ],
+      "image": "assets/images/archive/lore-1x1x1x1-origin.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "new-lobby-npcs",
@@ -47,7 +57,10 @@
       "status": "confirmed-update",
       "sourceIds": [
         "newbeginnings"
-      ]
+      ],
+      "image": "assets/images/archive/lore-new-lobby-npcs.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     }
   ]
 }

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-label="007n7 — illustrazione originale FogLabs, non ufficiale">
+      <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b0912"/><stop offset=".52" stop-color="#53317d" stop-opacity=".75"/><stop offset="1" stop-color="#0b0810"/></linearGradient>
+        <radialGradient id="glow"><stop stop-color="#8c2e4e" stop-opacity=".42"/><stop offset="1" stop-color="#8c2e4e" stop-opacity="0"/></radialGradient>
+        <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur stdDeviation="8"/></filter>
+      </defs>
+      <rect width="720" height="420" fill="url(#bg)"/><ellipse cx="360" cy="205" rx="340" ry="260" fill="url(#glow)"/>
+      <circle cx="529" cy="114" r="1" fill="#fff" opacity="0.48"/><circle cx="608" cy="87" r="2" fill="#fff" opacity="0.29"/><circle cx="398" cy="176" r="1" fill="#fff" opacity="0.47"/><circle cx="527" cy="114" r="2" fill="#fff" opacity="0.45"/><circle cx="347" cy="72" r="1" fill="#fff" opacity="0.38"/><circle cx="661" cy="50" r="2" fill="#fff" opacity="0.59"/><circle cx="471" cy="201" r="2" fill="#fff" opacity="0.39"/><circle cx="603" cy="188" r="1" fill="#fff" opacity="0.44"/><circle cx="539" cy="172" r="1" fill="#fff" opacity="0.20"/><circle cx="372" cy="70" r="2" fill="#fff" opacity="0.40"/><circle cx="551" cy="155" r="1.5" fill="#fff" opacity="0.43"/><circle cx="617" cy="189" r="2" fill="#fff" opacity="0.24"/><circle cx="152" cy="95" r="2" fill="#fff" opacity="0.54"/><circle cx="207" cy="132" r="1.5" fill="#fff" opacity="0.25"/><circle cx="39" cy="154" r="1.5" fill="#fff" opacity="0.26"/><circle cx="468" cy="144" r="2" fill="#fff" opacity="0.28"/><circle cx="370" cy="72" r="1.5" fill="#fff" opacity="0.52"/><circle cx="344" cy="89" r="1" fill="#fff" opacity="0.60"/><circle cx="123" cy="196" r="1.5" fill="#fff" opacity="0.44"/><circle cx="395" cy="73" r="2" fill="#fff" opacity="0.38"/><circle cx="336" cy="81" r="1.5" fill="#fff" opacity="0.31"/><circle cx="443" cy="97" r="1.5" fill="#fff" opacity="0.31"/><circle cx="498" cy="71" r="1" fill="#fff" opacity="0.44"/><circle cx="464" cy="183" r="1.5" fill="#fff" opacity="0.64"/><circle cx="94" cy="63" r="2" fill="#fff" opacity="0.32"/><circle cx="492" cy="196" r="2" fill="#fff" opacity="0.49"/><circle cx="293" cy="155" r="1.5" fill="#fff" opacity="0.43"/><circle cx="670" cy="34" r="1" fill="#fff" opacity="0.26"/><circle cx="633" cy="125" r="2" fill="#fff" opacity="0.42"/><circle cx="338" cy="66" r="1.5" fill="#fff" opacity="0.56"/><circle cx="152" cy="106" r="1" fill="#fff" opacity="0.47"/><circle cx="277" cy="180" r="1.5" fill="#fff" opacity="0.23"/><circle cx="644" cy="103" r="2" fill="#fff" opacity="0.28"/><circle cx="255" cy="136" r="2" fill="#fff" opacity="0.61"/><circle cx="354" cy="118" r="1" fill="#fff" opacity="0.51"/><circle cx="608" cy="74" r="1.5" fill="#fff" opacity="0.33"/><circle cx="615" cy="73" r="2" fill="#fff" opacity="0.19"/><circle cx="476" cy="55" r="2" fill="#fff" opacity="0.33"/><circle cx="601" cy="81" r="1" fill="#fff" opacity="0.39"/><circle cx="242" cy="152" r="1.5" fill="#fff" opacity="0.31"/><circle cx="585" cy="95" r="2" fill="#fff" opacity="0.24"/><circle cx="306" cy="184" r="1.5" fill="#fff" opacity="0.59"/>
+      <path d="M0 0 H720 V22 Q540 42 360 22 T0 22Z" fill="#8c2e4e" opacity=".38"/>
+      <circle cx="360" cy="142" r="126" fill="#53317d" opacity=".12"/><path d="M120 330 Q360 280 600 330" stroke="#53317d" stroke-width="2" opacity=".28" fill="none"/>
+        <ellipse cx="360" cy="394" rx="112" ry="13" fill="#05050a" opacity=".55" filter="url(#shadow)"/>
+        <g transform="translate(0,8)">
+          <path d="M277 308 Q292 267 320 254 L345 236 L375 236 L400 254 Q428 267 443 308Z" fill="#090910" stroke="#53317d" stroke-opacity=".56" stroke-width="4"/>
+          <rect x="322" y="125" width="76" height="87" rx="8" fill="#11111a" stroke="#53317d" stroke-width="4"/>
+          <path d="M322 150 H398" stroke="#fff" opacity=".15" stroke-width="4"/>
+          <rect x="297" y="218" width="126" height="103" rx="10" fill="#11111a" stroke="#53317d" stroke-width="4"/>
+          <path d="M298 245 L266 291 L280 302 L322 268 M422 245 L454 291 L440 302 L398 268" fill="#101018" stroke="#53317d" stroke-width="4"/>
+          <path d="M338 321 L332 385 H357 L366 328 M383 321 L389 385 H414 L405 328" fill="#0b0a12" stroke="#53317d" stroke-width="4"/>
+          <path d="M344 164 h8 M367 164 h8" stroke="#f4eff7" stroke-width="5" stroke-linecap="round"/>
+          <path d="M344 184 Q360 194 376 184" fill="none" stroke="#53317d" stroke-width="3"/>
+        </g>
+      <rect y="358" width="720" height="62" fill="#07070d" opacity=".88"/>
+      <path d="M0 358 H720" stroke="#8c2e4e" stroke-width="2" opacity=".85"/>
+      <text x="25" y="385" fill="#f7f2f8" font-size="21" font-family="Arial,sans-serif" font-weight="700" letter-spacing="1">007n7</text>
+      <text x="25" y="405" fill="#c6b7cf" font-size="9" font-family="Arial,sans-serif" letter-spacing="1.6">FOGLABS ARCHIVE ART · NON-OFFICIAL ILLUSTRATION</text>
+      <text x="688" y="405" fill="#8c2e4e" font-size="9" font-family="Arial,sans-serif" text-anchor="end">FL / CHARACTER</text>
+    </svg>

@@ -5,7 +5,8 @@
     "category": "updates",
     "gameVersion": "5.4.2",
     "lastVerified": "2026-11-18",
-    "coverage": "starter-dataset"
+    "coverage": "starter-dataset",
+    "imageCoverage": "all-items-have-local-original-illustration"
   },
   "items": [
     {
@@ -17,7 +18,10 @@
       "sourceIds": [
         "patchlog"
       ],
-      "status": "confirmed-community-index"
+      "status": "confirmed-community-index",
+      "image": "assets/images/archive/updates-5-4-2.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "5-4-1",
@@ -28,7 +32,10 @@
       "sourceIds": [
         "patchlog"
       ],
-      "status": "confirmed-community-index"
+      "status": "confirmed-community-index",
+      "image": "assets/images/archive/updates-5-4-1.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "5-4-0",
@@ -39,7 +46,10 @@
       "sourceIds": [
         "patchlog"
       ],
-      "status": "confirmed-community-index"
+      "status": "confirmed-community-index",
+      "image": "assets/images/archive/updates-5-4-0.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "5-3-4",
@@ -50,7 +60,10 @@
       "sourceIds": [
         "patchlog"
       ],
-      "status": "confirmed-community-index"
+      "status": "confirmed-community-index",
+      "image": "assets/images/archive/updates-5-3-4.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "5-3-0",
@@ -62,7 +75,10 @@
         "patchlog",
         "newbeginnings"
       ],
-      "status": "confirmed-community-index"
+      "status": "confirmed-community-index",
+      "image": "assets/images/archive/updates-5-3-0.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "5-0-0",
@@ -73,7 +89,10 @@
       "sourceIds": [
         "fw"
       ],
-      "status": "confirmed-community-index"
+      "status": "confirmed-community-index",
+      "image": "assets/images/archive/updates-5-0-0.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "3-1-0",
@@ -84,7 +103,10 @@
       "sourceIds": [
         "fw"
       ],
-      "status": "confirmed-community-index"
+      "status": "confirmed-community-index",
+      "image": "assets/images/archive/updates-3-1-0.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     }
   ]
 }

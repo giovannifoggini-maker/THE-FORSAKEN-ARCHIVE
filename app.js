@@ -115,6 +115,7 @@
     $('#breadcrumbCurrent').textContent=pretty;
   }
   function applyPreferences(){
+    document.documentElement.lang=lang;
     document.documentElement.dataset.theme=currentTheme;
     $('#themeToggle').innerHTML=svgIcon(currentTheme==='dark'?'sun':'moon');
     $('#langToggle').textContent=lang.toUpperCase();
@@ -153,10 +154,10 @@
   function openEntry(route){
     if(route.startsWith('character/')){
       const id=route.split('/')[1];const item=getItems('characters').find(x=>x.id===id);
-      if(item)saveHistory({id:item.id,name:item.name,route:`character/${item.id}`,kind:item.side});
+      if(item)saveHistory({id:item.id,name:item.name,route:`character/${item.id}`,kind:item.side,image:item.image});
     } else if(route.startsWith('entry/')){
       const [,cat,id]=route.split('/');const item=getItems(cat).find(x=>x.id===id);
-      if(item)saveHistory({id:item.id,name:item.name||item.title||item.version,route,kind:cat});
+      if(item)saveHistory({id:item.id,name:item.name||item.title||item.version,route,kind:cat,image:item.image});
     }
   }
   function getHistory(){try{return JSON.parse(localStorage.getItem('fa-history')||'[]')}catch(e){return[]}}
@@ -192,9 +193,10 @@
           <div class="hero-actions"><a class="primary-btn" href="#survivors">Esplora l’archivio ${svgIcon('arrow')}</a><a class="secondary-btn" href="#updates">Ultimi aggiornamenti</a></div>
           <div class="hero-stamp" style="margin-top:21px"><b>●</b> DATASET COMMUNITY <span>·</span> LAST REVIEW 18 NOV 2026 <span>·</span> GAME INDEX 5.4.2</div>
         </div>
-        <div class="hero-art" aria-label="Personaggi Forsaken">
-          <div class="hero-portrait first">${imageTag('https://rowikis.com/forsaken/img/characters/1x1x1x1.webp','1x1x1x1')}</div>
-          <div class="hero-portrait second">${imageTag('https://rowikis.com/forsaken/img/characters/007n7.webp','007n7')}<div class="portrait-caption">007n7</div></div>
+        <div class="hero-art" aria-label="Illustrazioni originali dei personaggi in archivio">
+          <div class="hero-portrait first">${imageTag(getItems('characters').find(c=>c.id==='1x1x1x1')?.image,'1x1x1x1')}</div>
+          <div class="hero-portrait second">${imageTag(getItems('characters').find(c=>c.id==='007n7')?.image,'007n7')}<div class="portrait-caption">007n7</div></div>
+          <div class="hero-art-credit">FOGLABS ORIGINAL ARCHIVE ART · NON UFFICIALE</div>
         </div>
       </div></section>
       <section class="metrics-grid">
@@ -244,12 +246,12 @@
   }
   function renderCharacterCard(c){
     const img=c.image||null;const price=c.unlock||'Sblocco da verificare';const description=c.description||'Descrizione non documentata.';
-    return `<article class="entity-card"><a href="#character/${safe(c.id)}" aria-label="Apri ${safe(c.name)}"><div class="entity-card-image">${imageTag(img,c.name)}<span class="card-flag">${statusPill(c.status)}</span></div></a>${favoriteButton(c.id)}<div class="entity-card-body"><div class="entity-card-title"><div><h3>${safe(c.name)}</h3><small>${safe(c.role||c.side)}</small></div></div><p>${safe(description)}</p><div class="tag-row"><span class="tag">${safe(c.side)}</span>${(c.tags||[]).slice(1,3).map(t=>`<span class="tag purple">${safe(t)}</span>`).join('')}</div><div class="entity-card-foot"><span class="card-meta">${safe(price)}</span><a class="card-open" href="#character/${safe(c.id)}">${label('open')} ${svgIcon('arrow')}</a></div></div></article>`;
+    return `<article class="entity-card"><a href="#character/${safe(c.id)}" aria-label="Apri ${safe(c.name)}"><div class="entity-card-image">${imageTag(img,c.name)}<span class="card-flag">${statusPill(c.status)}</span><span class="entity-art-credit">ARCHIVE ART · NON UFFICIALE</span></div></a>${favoriteButton(c.id)}<div class="entity-card-body"><div class="entity-card-title"><div><h3>${safe(c.name)}</h3><small>${safe(c.role||c.side)}</small></div></div><p>${safe(description)}</p><div class="tag-row"><span class="tag">${safe(c.side)}</span>${(c.tags||[]).slice(1,3).map(t=>`<span class="tag purple">${safe(t)}</span>`).join('')}</div><div class="entity-card-foot"><span class="card-meta">${safe(price)}</span><a class="card-open" href="#character/${safe(c.id)}">${label('open')} ${svgIcon('arrow')}</a></div></div></article>`;
   }
   function renderCompactCard(category,item){
     const name=item.name||item.title||item.version||'Voce senza nome';const summary=item.description||item.summary||item.environment||'Scheda in corso di documentazione.';
     const id=item.id||'';
-    return `<a class="compact-card" href="#entry/${safe(category)}/${safe(id)}" aria-label="Apri scheda ${safe(name)}"><div class="compact-card-top">${statusPill(item.status)}<span class="faint mono">${safe((item.version||item.date||'').toString())}</span></div><h3>${safe(name)}</h3><p>${safe(summary)}</p><div class="compact-card-meta">${item.role?`<span class="tag">${safe(item.role)}</span>`:''}${item.type?`<span class="tag purple">${safe(item.type)}</span>`:''}${item.unlock?`<span class="tag">${safe(item.unlock)}</span>`:''}${item.category?`<span class="tag">${safe(item.category)}</span>`:''}</div></a>`;
+    return `<a class="compact-card" href="#entry/${safe(category)}/${safe(id)}" aria-label="Apri scheda ${safe(name)}"><div class="compact-card-media">${imageTag(item.image,name)}<span class="compact-card-art-label">ARCHIVE ART · NON UFFICIALE</span></div><div class="compact-card-top">${statusPill(item.status)}<span class="faint mono">${safe((item.version||item.date||'').toString())}</span></div><h3>${safe(name)}</h3><p>${safe(summary)}</p><div class="compact-card-meta">${item.role?`<span class="tag">${safe(item.role)}</span>`:''}${item.type?`<span class="tag purple">${safe(item.type)}</span>`:''}${item.unlock?`<span class="tag">${safe(item.unlock)}</span>`:''}${item.category?`<span class="tag">${safe(item.category)}</span>`:''}</div></a>`;
   }
 
   function renderCharacterDetail(id){
@@ -260,7 +262,7 @@
     const abilities=(c.abilities||[]).filter(x=>!String(x).startsWith('('));
     const sideRoute=c.side==='Killer'?'killers':'survivors';
     return `<a class="back-link" href="#${sideRoute}">← ${label('back')} · ${safe(c.side)}</a>
-      <section class="detail-hero"><div><div class="eyebrow">CHARACTER ARCHIVE / ${safe(c.side.toUpperCase())}</div><div class="detail-title">${safe(c.name)}</div><div class="tag-row"><span class="tag red">${safe(c.side)}</span><span class="tag purple">${safe(c.role)}</span>${(c.tags||[]).slice(2,4).map(t=>`<span class="tag">${safe(t)}</span>`).join('')}</div><p class="detail-description">${safe(c.description||label('dataNote'))}</p><div class="detail-actions">${favoriteButton(c.id)}<a class="secondary-btn" href="#compare" data-compare-id="${safe(c.id)}">${svgIcon('compare')} Confronta personaggio</a>${statusPill(c.status)}</div></div><div class="detail-portrait">${imageTag(c.image,c.name)}<span class="detail-image-credit">${c.imageCredit?'Immagine community · fallback se non disponibile':'Placeholder · immagine non verificata'}</span></div></section>
+      <section class="detail-hero"><div><div class="eyebrow">CHARACTER ARCHIVE / ${safe(c.side.toUpperCase())}</div><div class="detail-title">${safe(c.name)}</div><div class="tag-row"><span class="tag red">${safe(c.side)}</span><span class="tag purple">${safe(c.role)}</span>${(c.tags||[]).slice(2,4).map(t=>`<span class="tag">${safe(t)}</span>`).join('')}</div><p class="detail-description">${safe(c.description||label('dataNote'))}</p><div class="detail-actions">${favoriteButton(c.id)}<a class="secondary-btn" href="#compare" data-compare-id="${safe(c.id)}">${svgIcon('compare')} Confronta personaggio</a>${statusPill(c.status)}</div></div><div class="detail-portrait-wrap"><div class="detail-portrait">${imageTag(c.image,c.name)}</div><span class="detail-image-credit">${c.imageCredit?'Illustrazione originale FogLabs · non ufficiale':'Immagine non disponibile'}</span></div></section>
       <div class="stat-grid">${statDefs.map(([n,v])=>`<div class="stat-box"><small>${safe(n)}</small><strong>${val(v)}</strong></div>`).join('')}</div>
       <div class="detail-columns"><section class="detail-panel"><div class="detail-panel-head"><h3>Abilities & kit</h3><span class="tag">${abilities.length} nomi indicizzati</span></div><div class="detail-panel-body">${abilities.length?`<div class="ability-list">${abilities.map(name=>{const ability=getItems('abilities').find(entry=>entry.characterId===c.id&&String(entry.name).toLowerCase()===String(name).toLowerCase());return `<a class="ability-row" href="${ability?`#entry/abilities/${safe(ability.id)}`:'#abilities'}"><strong>${safe(name)}</strong><small>${ability?'APRI SCHEDA ABILITÀ ↗':'DETTAGLI DA SINCRONIZZARE ↗'}</small></a>`;}).join('')}</div>`:`<p class="muted">${label('dataNote')}</p>`}<p class="muted" style="font-size:9px;margin:12px 0 0">Cooldown, effetti e descrizioni dettagliate sono mostrati solo quando supportati da una fonte verificabile. In questa build molti parametri restano intenzionalmente non compilati.</p></div></section>
       <section class="detail-panel"><div class="detail-panel-head"><h3>Unlock & record</h3></div><div class="detail-panel-body"><div class="data-row"><span>Metodo di sblocco</span><strong>${safe(c.unlock||label('missing'))}</strong></div><div class="data-row"><span>Game version</span><strong>${safe(c.gameVersion||'—')}</strong></div><div class="data-row"><span>Ultima revisione archivio</span><strong>${safe(c.lastVerified||'—')}</strong></div><div class="data-row"><span>Skin catalogate qui</span><strong>${getItems('skins').filter(s=>s.characterId===c.id).length||'—'}</strong></div><div class="data-row"><span>Lore</span><strong>${c.lore?safe(c.lore):label('missing')}</strong></div><div class="data-row"><span>Fonti</span><strong>${(c.sourceIds||[]).length} collegate</strong></div></div></section></div>
@@ -281,7 +283,7 @@
       extra=`<div class="detail-panel" style="margin-top:14px"><div class="detail-panel-head"><h3>Personaggio collegato</h3></div><div class="detail-panel-body">${related?`<a class="source-chip" href="#character/${safe(related.id)}">${safe(related.name)} ↗</a>`:'—'}<div class="data-row"><span>Categoria</span><strong>${safe(item.category||'—')}</strong></div><div class="data-row"><span>Sblocco</span><strong>${safe(item.unlock||label('missing'))}</strong></div></div></div>`;
     }
     return `<a class="back-link" href="#${safe(category)}">← ${label('back')} · ${safe(CATEGORY_META[category]?.title||category)}</a><div class="page-heading"><div><div class="eyebrow">ARCHIVE ENTRY / ${safe(category.toUpperCase())}</div><h1>${safe(name)}</h1><p>${safe(item.description||item.summary||'Scheda descrittiva in aggiornamento.')}</p></div>${statusPill(item.status)}</div>
-      <div class="detail-panel"><div class="detail-panel-head"><h3>Record</h3><span class="tag">${safe(item.gameVersion||'Forsaken')}</span></div><div class="detail-panel-body">${Object.entries(item).filter(([k,v])=>!['id','name','title','description','summary','sourceIds','status','gameVersion','lastVerified','image','imageCredit','layout','pointsOfInterest','survivorStrategy','killerStrategy','variants','effects','sections'].includes(k)&&v!==null&&v!==''&&typeof v!=='object').map(([k,v])=>`<div class="data-row"><span>${safe(toTitle(k))}</span><strong>${safe(v)}</strong></div>`).join('')}<div class="data-row"><span>Ultima revisione</span><strong>${safe(item.lastVerified||'—')}</strong></div></div></div>${extra}
+      <div class="entry-feature-art">${imageTag(item.image,name)}<span>ILLUSTRAZIONE ORIGINALE FOGLABS · NON È UN’IMMAGINE UFFICIALE DEL GIOCO</span></div><div class="detail-panel"><div class="detail-panel-head"><h3>Record</h3><span class="tag">${safe(item.gameVersion||'Forsaken')}</span></div><div class="detail-panel-body">${Object.entries(item).filter(([k,v])=>!['id','name','title','description','summary','sourceIds','status','gameVersion','lastVerified','image','imageCredit','imageType','layout','pointsOfInterest','survivorStrategy','killerStrategy','variants','effects','sections'].includes(k)&&v!==null&&v!==''&&typeof v!=='object').map(([k,v])=>`<div class="data-row"><span>${safe(toTitle(k))}</span><strong>${safe(v)}</strong></div>`).join('')}<div class="data-row"><span>Ultima revisione</span><strong>${safe(item.lastVerified||'—')}</strong></div><div class="data-row"><span>Visual asset</span><strong>Illustrazione locale SVG · FogLabs</strong></div></div></div>${extra}
       <section class="detail-panel" style="margin-top:14px"><div class="detail-panel-head"><h3>Fonti</h3>${statusPill(item.status)}</div><div class="detail-panel-body"><div class="source-list">${sourceLinks(item.sourceIds)}</div></div></section>`;
   }
 
@@ -308,7 +310,7 @@
     if(!b)return;
     localStorage.setItem('fa-compare-a',a.id);localStorage.setItem('fa-compare-b',b.id);
     const rows=[['Lato',a.side,b.side],['Ruolo',a.role,b.role],['Health / HP',a.stats?.health,b.stats?.health],['Walk speed',a.stats?.walkSpeed,b.stats?.walkSpeed],['Sprint speed',a.stats?.sprintSpeed,b.stats?.sprintSpeed],['Stamina',a.stats?.stamina,b.stats?.stamina],['Difficulty',a.stats?.difficulty,b.stats?.difficulty],['Unlock',a.unlock,b.unlock]];
-    $('#compareResult').innerHTML=`<table class="compare-table"><thead><tr><th>Parametro</th><th>${safe(a.name)}</th><th>${safe(b.name)}</th></tr></thead><tbody>${rows.map(([l,av,bv])=>`<tr><td>${safe(l)}</td><td>${av===null||av===undefined?'Non verificato':safe(av)}</td><td>${bv===null||bv===undefined?'Non verificato':safe(bv)}</td></tr>`).join('')}</tbody></table>`;
+    $('#compareResult').innerHTML=`<div class="compare-visuals"><div class="compare-visual-card">${imageTag(a.image,a.name)}<strong>${safe(a.name)}</strong><small>${safe(a.side)} · ARCHIVE ART NON UFFICIALE</small></div><div class="compare-visual-vs">VS</div><div class="compare-visual-card">${imageTag(b.image,b.name)}<strong>${safe(b.name)}</strong><small>${safe(b.side)} · ARCHIVE ART NON UFFICIALE</small></div></div><table class="compare-table"><thead><tr><th>Parametro</th><th>${safe(a.name)}</th><th>${safe(b.name)}</th></tr></thead><tbody>${rows.map(([l,av,bv])=>`<tr><td>${safe(l)}</td><td>${av===null||av===undefined?'Non verificato':safe(av)}</td><td>${bv===null||bv===undefined?'Non verificato':safe(bv)}</td></tr>`).join('')}</tbody></table>`;
   }
   function renderPersonal(which){
     let records=[];
@@ -320,7 +322,7 @@
     if(!records.length)return `<div class="page-heading"><div><div class="eyebrow">PERSONAL ARCHIVE</div><h1>${which==='favorites'?label('favorites'):label('history')}</h1><p>Salvati solo in questo browser tramite LocalStorage.</p></div></div><div class="empty-state"><div class="empty-icon">${which==='favorites'?'♡':'◷'}</div><h3>${which==='favorites'?label('emptyFavorites'):label('emptyHistory')}</h3><p>Apri una scheda per aggiungerla alla tua cronologia o premi il cuore per salvarla.</p></div>`;
     return `<div class="page-heading"><div><div class="eyebrow">PERSONAL ARCHIVE</div><h1>${which==='favorites'?label('favorites'):label('history')}</h1><p>Salvati solo in questo browser tramite LocalStorage.</p></div><button class="ghost-btn" data-action="clear-${which}">Svuota</button></div><div class="compact-grid">${records.map(r=>{
       const route=r.route||`character/${r.id}`;const name=r.name||'Voce';const meta=r.kind||'Record';
-      return `<a class="compact-card" href="#${safe(route)}"><div class="compact-card-top"><span class="tag">${safe(meta)}</span>${r._history?`<span class="faint">${new Date(r.at).toLocaleDateString(lang==='it'?'it-IT':'en-US')}</span>`:statusPill(r.status)}</div><h3>${safe(name)}</h3><p>${safe(r.description||'Apri la scheda per consultare i dettagli e le fonti.')}</p><div class="compact-card-meta"><span class="card-open">${label('open')} ${svgIcon('arrow')}</span></div></a>`;
+      return `<a class="compact-card" href="#${safe(route)}"><div class="compact-card-media">${imageTag(r.image,name)}<span class="compact-card-art-label">ARCHIVE ART · NON UFFICIALE</span></div><div class="compact-card-top"><span class="tag">${safe(meta)}</span>${r._history?`<span class="faint">${new Date(r.at).toLocaleDateString(lang==='it'?'it-IT':'en-US')}</span>`:statusPill(r.status)}</div><h3>${safe(name)}</h3><p>${safe(r.description||'Apri la scheda per consultare i dettagli e le fonti.')}</p><div class="compact-card-meta"><span class="card-open">${label('open')} ${svgIcon('arrow')}</span></div></a>`;
     }).join('')}</div>`;
   }
   function renderSources(){

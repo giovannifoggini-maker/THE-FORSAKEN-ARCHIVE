@@ -5,7 +5,8 @@
     "category": "maps",
     "gameVersion": "5.4.2",
     "lastVerified": "2026-11-18",
-    "coverage": "starter-dataset-not-complete"
+    "coverage": "starter-dataset-not-complete",
+    "imageCoverage": "all-items-have-local-original-illustration"
   },
   "items": [
     {
@@ -25,7 +26,10 @@
         "patchlog"
       ],
       "lastVerified": "2026-11-18",
-      "gameVersion": "5.4.2"
+      "gameVersion": "5.4.2",
+      "image": "assets/images/archive/maps-brandon-place.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "glass-houses",
@@ -44,7 +48,10 @@
         "patchlog"
       ],
       "lastVerified": "2026-11-18",
-      "gameVersion": "5.4.2"
+      "gameVersion": "5.4.2",
+      "image": "assets/images/archive/maps-glass-houses.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "horror-hotel",
@@ -63,7 +70,10 @@
         "patchlog"
       ],
       "lastVerified": "2026-11-18",
-      "gameVersion": "5.4.2"
+      "gameVersion": "5.4.2",
+      "image": "assets/images/archive/maps-horror-hotel.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "ultimate-assassin-grounds",
@@ -82,7 +92,10 @@
         "patchlog"
       ],
       "lastVerified": "2026-11-18",
-      "gameVersion": "5.4.2"
+      "gameVersion": "5.4.2",
+      "image": "assets/images/archive/maps-ultimate-assassin-grounds.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "c00l-carnival",
@@ -101,7 +114,10 @@
         "patchlog"
       ],
       "lastVerified": "2026-11-18",
-      "gameVersion": "5.4.2"
+      "gameVersion": "5.4.2",
+      "image": "assets/images/archive/maps-c00l-carnival.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "underground-war",
@@ -120,7 +136,10 @@
         "patchlog"
       ],
       "lastVerified": "2026-11-18",
-      "gameVersion": "5.4.2"
+      "gameVersion": "5.4.2",
+      "image": "assets/images/archive/maps-underground-war.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "pirate-bay",
@@ -139,7 +158,10 @@
         "patchlog"
       ],
       "lastVerified": "2026-11-18",
-      "gameVersion": "5.4.2"
+      "gameVersion": "5.4.2",
+      "image": "assets/images/archive/maps-pirate-bay.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "builder-brothers-pizza",
@@ -158,7 +180,10 @@
         "patchlog"
       ],
       "lastVerified": "2026-11-18",
-      "gameVersion": "5.4.2"
+      "gameVersion": "5.4.2",
+      "image": "assets/images/archive/maps-builder-brothers-pizza.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "the-tempest",
@@ -177,7 +202,10 @@
         "patchlog"
       ],
       "lastVerified": "2026-11-18",
-      "gameVersion": "5.4.2"
+      "gameVersion": "5.4.2",
+      "image": "assets/images/archive/maps-the-tempest.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "cake-factory",
@@ -196,7 +224,10 @@
         "patchlog"
       ],
       "lastVerified": "2026-11-18",
-      "gameVersion": "5.4.2"
+      "gameVersion": "5.4.2",
+      "image": "assets/images/archive/maps-cake-factory.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "beach-house-paradise",
@@ -215,7 +246,10 @@
         "patchlog"
       ],
       "lastVerified": "2026-11-18",
-      "gameVersion": "5.4.2"
+      "gameVersion": "5.4.2",
+      "image": "assets/images/archive/maps-beach-house-paradise.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "classic-battlegrounds",
@@ -234,7 +268,10 @@
         "patchlog"
       ],
       "lastVerified": "2026-11-18",
-      "gameVersion": "5.4.2"
+      "gameVersion": "5.4.2",
+      "image": "assets/images/archive/maps-classic-battlegrounds.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "bloodfell-manor",
@@ -253,7 +290,10 @@
         "patchlog"
       ],
       "lastVerified": "2026-11-18",
-      "gameVersion": "5.4.2"
+      "gameVersion": "5.4.2",
+      "image": "assets/images/archive/maps-bloodfell-manor.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "familiar-ruins",
@@ -272,7 +312,10 @@
         "patchlog"
       ],
       "lastVerified": "2026-11-18",
-      "gameVersion": "5.4.2"
+      "gameVersion": "5.4.2",
+      "image": "assets/images/archive/maps-familiar-ruins.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "natural-disaster-island",
@@ -291,7 +334,10 @@
         "patchlog"
       ],
       "lastVerified": "2026-11-18",
-      "gameVersion": "5.4.2"
+      "gameVersion": "5.4.2",
+      "image": "assets/images/archive/maps-natural-disaster-island.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "reborn-family-abode",
@@ -310,7 +356,10 @@
         "patchlog"
       ],
       "lastVerified": "2026-11-18",
-      "gameVersion": "5.4.2"
+      "gameVersion": "5.4.2",
+      "image": "assets/images/archive/maps-reborn-family-abode.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "roblox-hq",
@@ -329,7 +378,10 @@
         "patchlog"
       ],
       "lastVerified": "2026-11-18",
-      "gameVersion": "5.4.2"
+      "gameVersion": "5.4.2",
+      "image": "assets/images/archive/maps-roblox-hq.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "robloxian-highschool",
@@ -348,7 +400,10 @@
         "patchlog"
       ],
       "lastVerified": "2026-11-18",
-      "gameVersion": "5.4.2"
+      "gameVersion": "5.4.2",
+      "image": "assets/images/archive/maps-robloxian-highschool.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "yoricks-resting-place",
@@ -367,7 +422,10 @@
         "patchlog"
       ],
       "lastVerified": "2026-11-18",
-      "gameVersion": "5.4.2"
+      "gameVersion": "5.4.2",
+      "image": "assets/images/archive/maps-yoricks-resting-place.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     }
   ]
 }

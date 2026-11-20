@@ -24,6 +24,8 @@
       "tierlists",
       "sources"
     ],
-    "coverage": "starter-dataset-not-complete"
+    "coverage": "starter-dataset-not-complete",
+    "visualAssetsUpdated": "2026-11-20",
+    "imageCoverage": "195 local original SVG archive illustrations; not official game renders or screenshots"
   }
 }

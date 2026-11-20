@@ -5,7 +5,8 @@
     "category": "items",
     "gameVersion": "5.4.2",
     "lastVerified": "2026-11-18",
-    "coverage": "starter-dataset"
+    "coverage": "starter-dataset",
+    "imageCoverage": "all-items-have-local-original-illustration"
   },
   "items": [
     {
@@ -18,7 +19,10 @@
         "survivors_stats",
         "maps"
       ],
-      "status": "partial"
+      "status": "partial",
+      "image": "assets/images/archive/items-bloxy-cola.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "ghostburger",
@@ -29,7 +33,10 @@
       "sourceIds": [
         "survivors_stats"
       ],
-      "status": "partial"
+      "status": "partial",
+      "image": "assets/images/archive/items-ghostburger.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "slateskin-potion",
@@ -40,7 +47,10 @@
       "sourceIds": [
         "survivors_stats"
       ],
-      "status": "partial"
+      "status": "partial",
+      "image": "assets/images/archive/items-slateskin-potion.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "medkit",
@@ -51,7 +61,10 @@
       "sourceIds": [
         "maps"
       ],
-      "status": "partial"
+      "status": "partial",
+      "image": "assets/images/archive/items-medkit.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     },
     {
       "id": "spray-bottle",
@@ -63,7 +76,10 @@
         "newbeginnings",
         "patchlog"
       ],
-      "status": "partial"
+      "status": "partial",
+      "image": "assets/images/archive/items-spray-bottle.svg",
+      "imageCredit": "Illustrazione originale FogLabs in SVG; non è un render o screenshot ufficiale del gioco.",
+      "imageType": "original-archive-illustration"
     }
   ]
 }

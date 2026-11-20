@@ -139,3 +139,30 @@ body{
 .brand-mark{overflow:hidden;padding:0;display:block;width:42px;height:42px;border-radius:11px;border:1px solid rgba(239,35,60,.52);background:#100910;box-shadow:0 0 24px rgba(239,35,60,.22),0 0 18px rgba(109,50,154,.16)}
 .brand-mark img{display:block;width:100%;height:100%;object-fit:cover}
 .footer-logo{object-fit:cover;border:1px solid var(--stroke-strong);border-radius:8px;display:block;padding:0}
+
+/* 2026-11-20 — locally bundled, original FogLabs archive art for every record. */
+.compact-card{padding:15px}
+.compact-card-media{height:132px;margin:-15px -15px 12px;position:relative;overflow:hidden;background:#17111f;border-bottom:1px solid var(--stroke)}
+.compact-card-media img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .45s}
+.compact-card:hover .compact-card-media img{transform:scale(1.035)}
+.compact-card-art-label{position:absolute;right:8px;bottom:7px;padding:3px 6px;border:1px solid rgba(255,255,255,.18);border-radius:4px;background:rgba(8,7,12,.72);color:#e6dce9;font-size:7px;letter-spacing:.1em}
+.entry-feature-art{position:relative;height:220px;margin:0 0 14px;border:1px solid var(--stroke-strong);border-radius:13px;overflow:hidden;background:#17111f}
+.entry-feature-art img{width:100%;height:100%;object-fit:cover;display:block}
+.entry-feature-art span{position:absolute;right:10px;bottom:9px;padding:4px 7px;border:1px solid rgba(255,255,255,.18);border-radius:5px;background:rgba(8,7,12,.76);color:#eee5f0;font-size:8px;letter-spacing:.07em}
+.hero-art-credit{position:absolute;left:50%;bottom:2px;transform:translateX(-50%);width:max-content;max-width:100%;color:#d2c5d9;font-size:7px;letter-spacing:.12em;text-align:center;text-shadow:0 2px 8px #08070c}
+.compare-visuals{display:grid;grid-template-columns:minmax(0,1fr) 42px minmax(0,1fr);gap:12px;align-items:center;margin:0 0 14px}
+.compare-visual-card{min-width:0;overflow:hidden;border:1px solid var(--stroke);border-radius:10px;background:var(--panel)}
+.compare-visual-card img{width:100%;height:145px;display:block;object-fit:cover}
+.compare-visual-card strong,.compare-visual-card small{display:block;padding:0 10px}
+.compare-visual-card strong{padding-top:8px;font:700 17px var(--font-display);text-transform:uppercase}
+.compare-visual-card small{padding-top:2px;padding-bottom:9px;color:var(--faint);font-size:7px;letter-spacing:.08em}
+.compare-visual-vs{text-align:center;color:var(--red);font:800 20px var(--font-display)}
+.hero-portrait img{object-fit:cover}
+@media(max-width:700px){.compact-card-media{height:145px}.entry-feature-art{height:180px}.compare-visuals{grid-template-columns:minmax(0,1fr) 28px minmax(0,1fr);gap:6px}.compare-visual-card img{height:100px}.compare-visual-card strong{font-size:14px}.compare-visual-vs{font-size:15px}}
+.entity-art-credit{position:absolute;left:8px;bottom:8px;z-index:2;padding:3px 6px;border:1px solid rgba(255,255,255,.16);border-radius:4px;background:rgba(8,7,12,.72);color:#e6dce9;font-size:7px;letter-spacing:.09em}
+
+/* Character detail illustration credit sits below the art, never over its artwork. */
+.detail-portrait-wrap{width:100%;max-width:300px;justify-self:end;display:grid;gap:5px;min-width:0}
+.detail-portrait-wrap .detail-portrait{max-width:none;justify-self:stretch}
+.detail-image-credit{position:static;display:block;text-align:right;color:var(--faint);font-size:8px;letter-spacing:.06em;padding:0 2px}
+@media(max-width:700px){.detail-portrait-wrap{max-width:none;justify-self:stretch}.detail-portrait-wrap .detail-portrait{height:210px}}
